@@ -1,0 +1,319 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.infrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.infrastructure\\seeders\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\seeders\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.infrastructure\\seeders\\idataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\seeders\\idataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|solutionrelative:webshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.infrastructure\\persistence\\webshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\persistence\\webshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.api\\webshop.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|solutionrelative:webshop.api\\webshop.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.infrastructure\\webshop.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\webshop.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|solutionrelative:webshop.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|solutionrelative:webshop.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.infrastructure\\migrations\\20240415140451_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\migrations\\20240415140451_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.domain\\webshop.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\webshop.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\eonisbekend\\webshop.application\\webshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\webshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Infrastructure\\Seeders\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Seeders\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Infrastructure\\Seeders\\DataSeeder.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Seeders\\DataSeeder.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAFMAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:03:11.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "WebShop.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswBMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:33:13.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\Address.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\Entities\\Address.cs",
+              "RelativeToolTip": "WebShop.Domain\\Entities\\Address.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:47:59.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "WebShop.Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T14:24:35.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\Entities\\Admin.cs",
+              "RelativeToolTip": "WebShop.Domain\\Entities\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:35:52.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Infrastructure\\Seeders\\IDataSeeder.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Seeders\\IDataSeeder.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Infrastructure\\Seeders\\IDataSeeder.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Seeders\\IDataSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:04:52.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "WebShop.Domain\\Entities\\Order.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:33:34.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "WebShop.Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:37:05.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:32:17.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebShopDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Infrastructure\\Persistence\\WebShopDbContext.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Persistence\\WebShopDbContext.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Infrastructure\\Persistence\\WebShopDbContext.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Persistence\\WebShopDbContext.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAADkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T09:26:01.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.API\\Program.cs",
+              "RelativeDocumentMoniker": "WebShop.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.API\\Program.cs",
+              "RelativeToolTip": "WebShop.API\\Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:29:32.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebShop.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.API\\WebShop.API.csproj",
+              "RelativeDocumentMoniker": "WebShop.API\\WebShop.API.csproj",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.API\\WebShop.API.csproj",
+              "RelativeToolTip": "WebShop.API\\WebShop.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-15T14:41:34.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.API\\appsettings.json",
+              "RelativeDocumentMoniker": "WebShop.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.API\\appsettings.json",
+              "RelativeToolTip": "WebShop.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-15T16:21:19.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebShop.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.API\\appsettings.Development.json",
+              "RelativeToolTip": "WebShop.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-15T16:21:21.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WebShop.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\WebShop.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj",
+              "RelativeToolTip": "WebShop.Infrastructure\\WebShop.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-15T09:23:20.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240415140451_Init.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Infrastructure\\Migrations\\20240415140451_Init.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Migrations\\20240415140451_Init.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Infrastructure\\Migrations\\20240415140451_Init.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Migrations\\20240415140451_Init.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:04:52.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WebShop.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\WebShop.Domain.csproj",
+              "RelativeDocumentMoniker": "WebShop.Domain\\WebShop.Domain.csproj",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Domain\\WebShop.Domain.csproj",
+              "RelativeToolTip": "WebShop.Domain\\WebShop.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-12T14:22:11.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WebShop.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj",
+              "RelativeDocumentMoniker": "WebShop.Application\\WebShop.Application.csproj",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj",
+              "RelativeToolTip": "WebShop.Application\\WebShop.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-12T14:18:37.138Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

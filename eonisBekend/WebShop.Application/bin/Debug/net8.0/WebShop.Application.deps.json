@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WebShop.Application/1.0.0": {
+        "dependencies": {
+          "WebShop.Domain": "1.0.0"
+        },
+        "runtime": {
+          "WebShop.Application.dll": {}
+        }
+      },
+      "WebShop.Domain/1.0.0": {
+        "runtime": {
+          "WebShop.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebShop.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebShop.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
