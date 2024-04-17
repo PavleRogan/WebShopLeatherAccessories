@@ -6,7 +6,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebShop.Domain.Repositories;
 using WebShop.Infrastructure.Persistence;
+using WebShop.Infrastructure.Repositories;
 using WebShop.Infrastructure.Seeders;
 
 namespace WebShop.Infrastructure.Extensions;
@@ -19,7 +21,8 @@ public static class ServiceCollectionExtension
         var connectionString = configuration.GetConnectionString("WebShopDb");
         services.AddDbContext<WebShopDbContext>(options => options.UseSqlServer(connectionString));
 
-        services.AddScoped<IDataSeeder, DataSeeder>(); 
+        services.AddScoped<IDataSeeder, DataSeeder>();
+        services.AddScoped<IUsersRepository, UsersRepository>();
     }
 
 } 

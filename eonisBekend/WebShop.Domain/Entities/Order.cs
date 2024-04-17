@@ -14,8 +14,8 @@ namespace WebShop.Domain.Entities
 
         public Guid UserId { get; set; }
 
-        public User User { get; set; }
+        public User User { get; set; } = new();
 
-        public List<OrderItem> OrderItems { get; set; }
+        public List<OrderItem> OrderItems { get; set; } = new();
     }
 }

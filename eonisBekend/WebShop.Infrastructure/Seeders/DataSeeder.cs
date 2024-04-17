@@ -10,95 +10,46 @@ namespace WebShop.Infrastructure.Seeders
 {
     internal class DataSeeder(WebShopDbContext dbContext) : IDataSeeder
     {
+        
         public async Task Seed()
         {
             if (await dbContext.Database.CanConnectAsync())
             {
-                if (!dbContext.Users.Any())
-                {
-                    var users = GetUsers();
-                    dbContext.Users.AddRange(users);
-                    await dbContext.SaveChangesAsync();
-                }
                 if (!dbContext.Products.Any())
                 {
                     var products = GetProducts();
                     dbContext.Products.AddRange(products);
                     await dbContext.SaveChangesAsync();
                 }
+                if (!dbContext.Users.Any())
+                {
+                    var users = GetUsers();
+                    dbContext.Users.AddRange(users);
+                    await dbContext.SaveChangesAsync();
+                }
+                
                 if (!dbContext.Admins.Any())
                 {
                     var admins = GetAdmins();
                     dbContext.Admins.AddRange(admins);
                     await dbContext.SaveChangesAsync();
                 }
-                if (!dbContext.Orders.Any())
-                {
-                    var orders = GetOrders();
-                    dbContext.Orders.AddRange(orders);
-                    await dbContext.SaveChangesAsync();
-                }
-                if (!dbContext.OrderItems.Any())
-                {
-                    var orderItems = GetOrderItems();
-                    dbContext.OrderItems.AddRange(orderItems);
-                    await dbContext.SaveChangesAsync();
-                }
+              
+               
             }
 
         }
 
-        private IEnumerable<OrderItem> GetOrderItems()
-        {
-            var productId1 = new Guid("B02D6E2E-7C2C-4EB1-963C-1A62042B93FA");
-            var productId2 = new Guid("AC8F513A-331E-40FE-B047-23C45031F939");
-            var orderId1 = new Guid("eae7b2a9-a90b-4796-ac8b-14a00c6b92c5");
-            var orderId2 = new Guid("3728bf70-3f1f-4e5f-becc-483e0e8a2049");
+        Guid productId1 = new Guid("B02D6E2E-7C2C-4EB1-963C-1A62042B93FA");
+        Guid productId2 = new Guid("AC8F513A-331E-40FE-B047-23C45031F939");
+        Guid orderId1 = new Guid("eae7b2a9-a90b-4796-ac8b-14a00c6b92c5");
+        Guid orderId2 = new Guid("3728bf70-3f1f-4e5f-becc-483e0e8a2049");
+        Guid userId1 = new Guid("2728bf70-3f1f-4e5f-becc-483e0e8a2042");
+        Guid userId2 = new Guid("1728bf70-3f1f-4e5f-becc-483e0e8a2041");
+        Guid orderItemId1 = new Guid("1228bf70-3f1f-4e5f-becc-483e0e8a2041");
+        Guid orderItemId2 = new Guid("1238bf70-3f1f-4e5f-becc-483e0e8a2041");
 
-            var orderItem1 = new OrderItem
-            {
-                OrderItemId = Guid.NewGuid(),
-                ProductId = productId1,
-                OrderId = orderId1,
-                Quantity = 2 // Example quantity
-            };
-
-            var orderItem2 = new OrderItem
-            {
-                OrderItemId = Guid.NewGuid(),
-                ProductId = productId2,
-                OrderId = orderId2,
-                Quantity = 1 // Example quantity
-            };
-
-            return new List<OrderItem> { orderItem1, orderItem2 };
-        }
-
-        private IEnumerable<Order> GetOrders()
-        {
-            var userId1 = new Guid("AD85C798-BF16-41B5-8873-56787E7A304E");
-            var userId2 = new Guid("3F246178-C414-4E20-BA6B-F4240B9DDDD4");
-
-            var order1 = new Order
-            {
-                OrderId = new Guid("eae7b2a9-a90b-4796-ac8b-14a00c6b92c5"),
-                OrderDate = DateTime.Now.AddDays(-7), 
-                UserId = userId1,
-
-                //  set OrderItems needed?
-            };
-
-            var order2 = new Order
-            {
-                OrderId = new Guid("3728bf70-3f1f-4e5f-becc-483e0e8a2049"),
-                OrderDate = DateTime.Now.AddDays(-3),
-                UserId = userId2,
-                //  OrderItems if needed?
-            };
-
-            return new List<Order> { order1, order2 };
-        }
-
+       
         private IEnumerable<Admin> GetAdmins()
         {
             return new List<Admin>
@@ -116,7 +67,7 @@ namespace WebShop.Infrastructure.Seeders
         {
             var maleWallet = new Product
             {
-                ProductId = Guid.NewGuid(),
+                ProductId = productId1,
                 Name = "Men's Leather Wallet",
                 Description = "Classic men's leather wallet with multiple card slots and a bill compartment.",
                 Category = "Wallets",
@@ -127,7 +78,7 @@ namespace WebShop.Infrastructure.Seeders
 
             var femaleWallet = new Product
             {
-                ProductId = Guid.NewGuid(),
+                ProductId = productId2,
                 Name = "Women's Leather Wallet",
                 Description = "Elegant women's leather wallet with compartments for cards, cash, and coins.",
                 Category = "Wallets",
@@ -145,7 +96,7 @@ namespace WebShop.Infrastructure.Seeders
             List<User> users = [new()
 
             {
-                UserId = Guid.NewGuid(),
+                UserId = userId1,
                 Name = "John Doe",
                 Email = "john@example.com",
                 Password = "password123",
@@ -156,9 +107,28 @@ namespace WebShop.Infrastructure.Seeders
                     PostalCode = "10001"
                 },
                 ContactNumber = "123-456-7890",
-                Orders = new List<Order>()
+                Orders = new List<Order>
+                    {
+                       new Order
+                        {
+                            OrderId = orderId1,
+                            OrderDate = DateTime.Now.AddDays(-7),
+                            UserId = userId1,
+
+                            OrderItems = new List<OrderItem>
+                            {
+                            new OrderItem
+                                    {
+                                        OrderItemId = orderItemId1,
+                                        ProductId = productId1,
+                                        OrderId = orderId1,
+                                        Quantity = 2 // Example quantity
+                                    }
+                            }
+                        }
+                    }
             },new (){
-                UserId = Guid.NewGuid(),
+                UserId = userId2,
                 Name = "Jane Smith",
                 Email = "jane@example.com",
                 Password = "password456",
@@ -169,7 +139,26 @@ namespace WebShop.Infrastructure.Seeders
                     PostalCode = "90001"
                 },
                 ContactNumber = "987-654-3210",
-                Orders = new List<Order>() 
+                Orders = new List<Order>
+                    {
+                       new Order
+                        {
+                            OrderId = orderId2,
+                            OrderDate = DateTime.Now.AddDays(-7),
+                            UserId = userId2,
+
+                            OrderItems = new List<OrderItem>
+                            {
+                            new OrderItem
+                                    {
+                                        OrderItemId = orderItemId2,
+                                        ProductId = productId2,
+                                        OrderId = orderId2,
+                                        Quantity = 1 // Example quantity
+                                    }
+                            }
+                        }
+                    }
             }
 
                 ];

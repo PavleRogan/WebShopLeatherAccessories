@@ -1,6 +1,26 @@
-@WebShop.API_HostAddress = http://localhost:5034
+@WebShop.API_HostAddress = https://localhost:7010
 
-GET {{WebShop.API_HostAddress}}/weatherforecast/
-Accept: application/json
+
+GET {{WebShop.API_HostAddress}}/api/users
+
+###
+
+GET {{WebShop.API_HostAddress}}/api/users/f1feaf0b-9790-4a12-d6c0-08dc5f012e68
+
+###
+
+POST {{WebShop.API_HostAddress}}/api/users
+Content-Type: application/json
+
+{
+  "Name": "Jovan Jovanovic",
+  "Email": "jovan@example.com",
+  "Password": "password123",
+  "City": "Beograd",
+  "StreetAndNumber": "Knez Mihailova 1",
+  "PostalCode": "11000",
+  "ContactNumber": "+381641234567"
+}
+
 
 ###
