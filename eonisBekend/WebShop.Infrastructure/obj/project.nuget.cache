@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3vCQdnMRYLYmoya80C1wtpVTzeDVsKYTUq624a0nLTJRzZbhOl2FRr3H98FxoS7fGR1TwRs3c8gZiuzvNKirFQ==",
+  "dgSpecHash": "uPIJvqzOsjs/HrjqS0+gVtc2T2zieS1bg5qmmDkRIrdDItJAzvSrCqnwCCS9/IFII4BVpCAcmTW1HmtOOpulVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,12 @@
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Rogan-LT\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Rogan-LT\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Rogan-LT\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Rogan-LT\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Rogan-LT\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

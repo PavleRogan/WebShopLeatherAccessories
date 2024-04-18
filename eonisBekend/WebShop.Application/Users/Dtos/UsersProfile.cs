@@ -1,6 +1,8 @@
 ﻿
 
 using AutoMapper;
+using WebShop.Application.Users.Commands.CreateCommands;
+using WebShop.Application.Users.Commands.UpdateCommands;
 using WebShop.Domain.Entities;
 
 namespace WebShop.Application.Users.Dtos;
@@ -15,7 +17,7 @@ public class UsersProfile : Profile
         .ForMember(d => d.PostalCode, opt => opt.MapFrom(src => src.Address == null ? null : src.Address.PostalCode))
         .ForMember(dest => dest.Orders, opt => opt.MapFrom(src => src.Orders));
 
-        CreateMap<CreateUserDto, User>()
+        CreateMap<CreateUserCommand, User>()
             .ForMember(d => d.Address, opt => opt.MapFrom(
                 src => new Address
                 {
@@ -23,6 +25,8 @@ public class UsersProfile : Profile
                     PostalCode = src.PostalCode,
                     StreetAndNumber = src.StreetAndNumber
                 }));
+
+        CreateMap<UpdateUserCommand, User>();
     }
 }
   

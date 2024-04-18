@@ -14,6 +14,13 @@ internal class UsersRepository(WebShopDbContext dbContext) : IUsersRepository
         return entity.UserId;
     }
 
+    public async Task Delete(User entity)
+    {
+        dbContext.Remove(entity);
+        await dbContext.SaveChangesAsync();
+        
+    }
+
     public async Task<IEnumerable<User>> GetAllAsync()
     {
         var users = await dbContext.Users.ToListAsync();
@@ -27,4 +34,6 @@ internal class UsersRepository(WebShopDbContext dbContext) : IUsersRepository
             .FirstOrDefaultAsync(x => x.UserId == userId);
         return user;
     }
+
+    public Task SaveChanges() => dbContext.SaveChangesAsync();
 }

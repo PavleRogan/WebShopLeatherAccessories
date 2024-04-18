@@ -55,7 +55,7 @@ namespace WebShop.Infrastructure.Persistence
                 .HasForeignKey(oi => oi.ProductId);
             });
             
-        }
+         }
 
     }
 }

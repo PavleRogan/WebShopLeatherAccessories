@@ -11,5 +11,9 @@ public interface IUsersRepository
 
     Task<Guid> Create(User entity);
 
+    Task Delete(User entity);
+
+    Task SaveChanges();
+
 
 }

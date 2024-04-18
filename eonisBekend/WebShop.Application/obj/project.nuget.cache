@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "RUFZy2+YW4TIbTgc980N9ObTHVDffbX475jMmzqSLx3HWbigZGDOXj7sni6n6DwIW25ezKw7FR7slqqiOWjTRQ==",
+  "dgSpecHash": "sf1pIH3TGV6Xota8+q0bB4u3v8L0agMgHIMTDww7mkGbs02+FDu4MqBUWsG70KkIfWLcS0h4weZYt2nJMZcLZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Rogan-LT\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Rogan-LT\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Rogan-LT\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\Rogan-LT\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Rogan-LT\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",

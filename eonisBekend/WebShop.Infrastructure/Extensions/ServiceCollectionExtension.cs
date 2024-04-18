@@ -19,7 +19,10 @@ public static class ServiceCollectionExtension
     public static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
         var connectionString = configuration.GetConnectionString("WebShopDb");
-        services.AddDbContext<WebShopDbContext>(options => options.UseSqlServer(connectionString));
+        services.AddDbContext<WebShopDbContext>(options => 
+        options
+        .UseSqlServer(connectionString)
+        .EnableSensitiveDataLogging());
 
         services.AddScoped<IDataSeeder, DataSeeder>();
         services.AddScoped<IUsersRepository, UsersRepository>();

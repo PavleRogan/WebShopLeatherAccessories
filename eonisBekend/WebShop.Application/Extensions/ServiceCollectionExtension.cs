@@ -11,7 +11,8 @@ public static class ServiceCollectionExtension
 {
     public static void AddApplication(this IServiceCollection services)
     {
-        services.AddScoped<IUsersService, UsersService>();
-        services.AddAutoMapper(typeof(ServiceCollectionExtension).Assembly);
+        var appAssembly = typeof(ServiceCollectionExtension).Assembly;
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(appAssembly));
+        services.AddAutoMapper(appAssembly);
     }
 }

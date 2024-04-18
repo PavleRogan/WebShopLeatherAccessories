@@ -5,7 +5,7 @@ GET {{WebShop.API_HostAddress}}/api/users
 
 ###
 
-GET {{WebShop.API_HostAddress}}/api/users/f1feaf0b-9790-4a12-d6c0-08dc5f012e68
+GET {{WebShop.API_HostAddress}}/api/users/4634ec29-c3c5-4281-c0ec-08dc5f94890e
 
 ###
 
@@ -13,14 +13,29 @@ POST {{WebShop.API_HostAddress}}/api/users
 Content-Type: application/json
 
 {
-  "Name": "Jovan Jovanovic",
-  "Email": "jovan@example.com",
-  "Password": "password123",
+  "Name": "Proba Test",
+  "Email": "test@example.com",
+  "Password": "password12345",
   "City": "Beograd",
-  "StreetAndNumber": "Knez Mihailova 1",
+  "StreetAndNumber": "Knez Mihailova 2",
   "PostalCode": "11000",
-  "ContactNumber": "+381641234567"
+  "ContactNumber": "+381641234537"
 }
 
+
+###
+
+DELETE {{WebShop.API_HostAddress}}/api/users/d746dd22-5368-4fe8-dff9-08dc5faf945f
+
+###
+
+PATCH {{WebShop.API_HostAddress}}/api/users/d746dd22-5368-4fe8-dff9-08dc5faf945f
+Content-Type: application/json
+
+{
+  "Name": "Pathed patch",
+  "Password": "patch",
+  "ContactNumber": "+381641231537"
+}
 
 ###
