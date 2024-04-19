@@ -3,7 +3,7 @@ using MediatR;
 
 namespace WebShop.Application.Users.Commands.UpdateCommands;
 
-public class UpdateUserCommand : IRequest<bool>
+public class UpdateUserCommand : IRequest
 {
         public Guid UserId { get; set; }
         public string Name { get; set; } = default!;

@@ -4,7 +4,7 @@ using WebShop.Application.Users.Dtos;
 
 namespace WebShop.Application.Users.Queries.GetUserById;
 
-public class GetUserByIdQuery : IRequest<UserDto?>
+public class GetUserByIdQuery : IRequest<UserDto>
 {
     public GetUserByIdQuery(Guid id)
     {

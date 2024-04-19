@@ -12,9 +12,11 @@ namespace WebShop.Domain.Entities
 
         public DateTime OrderDate { get; set; }
 
+        public bool Processed { get; set; }
+
         public Guid UserId { get; set; }
 
-        public User User { get; set; } = new();
+        public User User { get; set; }
 
         public List<OrderItem> OrderItems { get; set; } = new();
     }

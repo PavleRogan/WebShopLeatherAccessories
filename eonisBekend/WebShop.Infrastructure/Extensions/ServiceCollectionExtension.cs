@@ -26,6 +26,8 @@ public static class ServiceCollectionExtension
 
         services.AddScoped<IDataSeeder, DataSeeder>();
         services.AddScoped<IUsersRepository, UsersRepository>();
+        services.AddScoped<IOrdersRepository, OrdersRepository>();
+        services.AddScoped<IOrderItemRepository, OrderItemRepository>();
     }
 
 } 

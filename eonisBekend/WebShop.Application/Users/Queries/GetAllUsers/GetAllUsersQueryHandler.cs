@@ -14,7 +14,7 @@ public class GetAllUsersQueryHandler(ILogger<GetAllUsersQueryHandler> logger,
     public async Task<IEnumerable<UserDto>> Handle(GetAllUsersQuery request, CancellationToken cancellationToken)
     {
 
-        logger.LogInformation("Getting all restaurants");
+        logger.LogInformation("Getting all users");
         var users = await usersRepository.GetAllAsync();
         var usersDtos = mapper.Map<IEnumerable<UserDto>>(users);
         return usersDtos;

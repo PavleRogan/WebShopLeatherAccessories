@@ -5,7 +5,7 @@ GET {{WebShop.API_HostAddress}}/api/users
 
 ###
 
-GET {{WebShop.API_HostAddress}}/api/users/4634ec29-c3c5-4281-c0ec-08dc5f94890e
+GET {{WebShop.API_HostAddress}}/api/users/1728bf70-3f1f-4e5f-becc-483e0e8a2041
 
 ###
 
@@ -36,6 +36,17 @@ Content-Type: application/json
   "Name": "Pathed patch",
   "Password": "patch",
   "ContactNumber": "+381641231537"
+}
+
+###
+
+POST {{WebShop.API_HostAddress}}/api/orders
+Content-Type: application/json
+
+{
+  "userId": "1728bf70-3f1f-4e5f-becc-483e0e8a2041",
+  "orderDate": "2024-04-19T10:42:44.545Z",
+  "processed": false
 }
 
 ###

@@ -19,6 +19,6 @@ public class UserDto
 
     //public string? ContactNumber { get; set; }
 
-    public List<OrderDto>? Orders { get; set; }
+    public List<Orders.Dtos.OrderDto>? Orders { get; set; }
 
 }

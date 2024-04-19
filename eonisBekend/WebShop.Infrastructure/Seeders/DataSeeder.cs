@@ -114,6 +114,7 @@ namespace WebShop.Infrastructure.Seeders
                             OrderId = orderId1,
                             OrderDate = DateTime.Now.AddDays(-7),
                             UserId = userId1,
+                            Processed = true,
 
                             OrderItems = new List<OrderItem>
                             {
@@ -146,6 +147,7 @@ namespace WebShop.Infrastructure.Seeders
                             OrderId = orderId2,
                             OrderDate = DateTime.Now.AddDays(-7),
                             UserId = userId2,
+                            Processed = false,
 
                             OrderItems = new List<OrderItem>
                             {

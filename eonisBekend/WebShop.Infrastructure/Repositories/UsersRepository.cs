@@ -23,7 +23,7 @@ internal class UsersRepository(WebShopDbContext dbContext) : IUsersRepository
 
     public async Task<IEnumerable<User>> GetAllAsync()
     {
-        var users = await dbContext.Users.ToListAsync();
+        var users = await dbContext.Users.Include(x => x.Orders).ToListAsync();
         return users;
     }
 

@@ -11,6 +11,13 @@ namespace WebShop.Application.OrderItems.Dtos
 {
     public class OrderItemDto
     {
-        
+        public Guid OrderItemId { get; set; }
+
+        public Guid ProductId { get; set; }
+
+        public Guid OrderId { get; set; }
+
+        public int Quantity { get; set; }
+
     }
 }

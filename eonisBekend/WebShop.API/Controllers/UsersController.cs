@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using WebShop.Application.Orders.Dtos;
 using WebShop.Application.Users;
 using WebShop.Application.Users.Commands.CreateCommands;
 using WebShop.Application.Users.Commands.DeleteCommands;
@@ -17,7 +18,7 @@ public class UsersController(IMediator mediator) : ControllerBase
 {
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public async Task<ActionResult<IEnumerable<UserDto>>> GetAll()
+    public async Task<ActionResult<IEnumerable<OrderDto>>> GetAll()
     {
         var users = await mediator.Send(new GetAllUsersQuery());
         if (users == null || !users.Any())
@@ -28,13 +29,10 @@ public class UsersController(IMediator mediator) : ControllerBase
     }
 
     [HttpGet("{userId}")]
-    public async Task<ActionResult<UserDto>> GetById(Guid userId)
+    public async Task<ActionResult<OrderDto>> GetById(Guid userId)
     {
         var user = await mediator.Send(new GetUserByIdQuery(userId));
-        if (user is null)
-        {
-            return NotFound();
-        }
+        
         return Ok(user);
     }
 
@@ -51,12 +49,9 @@ public class UsersController(IMediator mediator) : ControllerBase
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> DeleteUser(Guid userId)
     {
-        var isDeleted = await mediator.Send(new DeleteUserCommand(userId));
-        if (isDeleted)
-        {
-            return NoContent();
-        }
-        return NotFound();
+         await mediator.Send(new DeleteUserCommand(userId));
+        
+        return NoContent();
     }
 
     [HttpPatch("{userId}")]
@@ -65,12 +60,9 @@ public class UsersController(IMediator mediator) : ControllerBase
     public async Task<IActionResult> UpdateUser(Guid userId, UpdateUserCommand command)
     {
         command.UserId = userId;
-        var isUpdated = await mediator.Send(command);
-        if (isUpdated)
-        {
-            return NoContent();
-        }
-        return NotFound();
+        await mediator.Send(command);
+        return NoContent();
+        
 
     }
 }
