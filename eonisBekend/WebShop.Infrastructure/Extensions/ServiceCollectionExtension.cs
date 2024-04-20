@@ -28,6 +28,8 @@ public static class ServiceCollectionExtension
         services.AddScoped<IUsersRepository, UsersRepository>();
         services.AddScoped<IOrdersRepository, OrdersRepository>();
         services.AddScoped<IOrderItemRepository, OrderItemRepository>();
+        services.AddScoped<IProductsRepository, ProductsRepository>();
+        services.AddScoped<IAdminsRepository, AdminRepository>();
     }
 
 } 

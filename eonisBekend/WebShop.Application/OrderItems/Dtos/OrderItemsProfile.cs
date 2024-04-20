@@ -17,8 +17,10 @@ namespace WebShop.Application.OrderItems.Dtos
              CreateMap<OrderItemDto, OrderItem>();
             CreateMap<OrderItem, OrderItemDto>();
             CreateMap<UpdateOrderItemCommand, OrderItem>();
-            CreateMap<CreateOrderItemCommand, OrderItem>();
-
+              CreateMap<CreateOrderItemCommand, OrderItem>();
+           
         }
+
     }
+    
 }
