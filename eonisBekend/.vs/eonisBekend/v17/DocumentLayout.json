@@ -3,6 +3,94 @@
   "WorkspaceRootPath": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|solutionrelative:webshop.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\helpers\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\helpers\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|solutionrelative:webshop.api\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.application\\auth\\helper\\iauthhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\auth\\helper\\iauthhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\seeders\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\seeders\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.application\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.application\\webshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\webshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\seeders\\idataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\seeders\\idataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Migrations\\20240420125135_satltToAdmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebShop.Infrastructure\\Migrations\\20240420125135_satltToAdmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\repositories\\iadminsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\repositories\\iadminsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\entities\\authcreds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\authcreds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Migrations\\20240420122056_SaltAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebShop.Infrastructure\\Migrations\\20240420122056_SaltAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\repositories\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\repositories\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.application\\admins\\commands\\updatecommands\\updateadmincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\admins\\commands\\updatecommands\\updateadmincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.application\\users\\commands\\updatecommands\\updateusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\users\\commands\\updatecommands\\updateusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,36 +195,8 @@
       "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\users\\dtos\\usersprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\webshop.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\webshop.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\repositories\\iadminsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\repositories\\iadminsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\repositories\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\repositories\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.application\\orderitems\\commands\\createcommans\\createorderitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -165,10 +221,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.application\\products\\commands\\updatecommands\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\products\\commands\\updatecommands\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.application\\products\\commands\\deletecommands\\deleteproductcommandhnadler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -205,10 +257,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.application\\products\\queries\\getall\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\products\\queries\\getall\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\seeders\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\seeders\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -299,10 +347,6 @@
       "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\orders\\queries\\getallordersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\seeders\\idataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\seeders\\idataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.application\\orders\\queries\\getallordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\orders\\queries\\getallordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -329,10 +373,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.application\\orders\\commands\\updatecommand\\updateordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\orders\\commands\\updatecommand\\updateordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.api\\webshop.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -379,18 +419,6 @@
       "RelativeMoniker": "D:0:0:{980DA46C-AE2E-45DC-8494-5CE79FDBBE82}|WebShop.API\\WebShop.API.csproj|solutionrelative:webshop.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.application\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.application\\webshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5F848C14-1C5B-4BC5-85E6-D924F848F2F4}|WebShop.Application\\WebShop.Application.csproj|solutionrelative:webshop.application\\webshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC21BE62-638F-4222-9888-974B4FEF0E02}|WebShop.Domain\\WebShop.Domain.csproj|solutionrelative:webshop.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\backend-eonis\\eonis24_it_05_2020_webshopleatheraccessories\\eonisbekend\\webshop.infrastructure\\migrations\\20240415140451_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9DFFD85-DED8-4C7B-BD33-36D86579DDE5}|WebShop.Infrastructure\\WebShop.Infrastructure.csproj|solutionrelative:webshop.infrastructure\\migrations\\20240415140451_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -418,11 +446,297 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Auth\\Helper\\IAuthHelper.cs",
+              "RelativeDocumentMoniker": "WebShop.Application\\Auth\\Helper\\IAuthHelper.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Auth\\Helper\\IAuthHelper.cs",
+              "RelativeToolTip": "WebShop.Application\\Auth\\Helper\\IAuthHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T13:28:56.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebShop.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebShop.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T11:34:36.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebShop.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj",
+              "RelativeDocumentMoniker": "WebShop.Application\\WebShop.Application.csproj",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj",
+              "RelativeToolTip": "WebShop.Application\\WebShop.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-12T14:18:37.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "WebShop.Application\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "WebShop.Application\\Extensions\\ServiceCollectionExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:36:16.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Helpers\\AuthHelper.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Helpers\\AuthHelper.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Helpers\\AuthHelper.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Helpers\\AuthHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T11:55:14.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "WebShop.API\\Controllers\\AdminsController.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "WebShop.API\\Controllers\\AdminsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T13:08:00.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Seeders\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Seeders\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Seeders\\DataSeeder.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Seeders\\DataSeeder.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFQAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:44:36.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Seeders\\IDataSeeder.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Seeders\\IDataSeeder.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Seeders\\IDataSeeder.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Seeders\\IDataSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:04:52.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "WebShop.Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T13:49:09.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\Admin.cs",
+              "RelativeToolTip": "WebShop.Domain\\Entities\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:35:52.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAswCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:32:17.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "WebShop.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA7wBAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:33:13.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240420125135_satltToAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Migrations\\20240420125135_satltToAdmin.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Migrations\\20240420125135_satltToAdmin.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Migrations\\20240420125135_satltToAdmin.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Migrations\\20240420125135_satltToAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:51:36.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Repositories\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Repositories\\AdminRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T08:58:45.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAdminsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IAdminsRepository.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Repositories\\IAdminsRepository.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IAdminsRepository.cs",
+              "RelativeToolTip": "WebShop.Domain\\Repositories\\IAdminsRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T08:56:34.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Repositories\\IUsersRepository.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IUsersRepository.cs",
+              "RelativeToolTip": "WebShop.Domain\\Repositories\\IUsersRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:09:13.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthCreds.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\AuthCreds.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\AuthCreds.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\AuthCreds.cs",
+              "RelativeToolTip": "WebShop.Domain\\Entities\\AuthCreds.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T11:58:15.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240420122056_SaltAdded.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Migrations\\20240420122056_SaltAdded.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Migrations\\20240420122056_SaltAdded.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Migrations\\20240420122056_SaltAdded.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Migrations\\20240420122056_SaltAdded.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:20:56.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Repositories\\UsersRepository.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:12:17.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\Address.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\Address.cs",
+              "RelativeToolTip": "WebShop.Domain\\Entities\\Address.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:47:59.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\OrderItemRepository.cs",
+              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Repositories\\OrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\OrderItemRepository.cs",
+              "RelativeToolTip": "WebShop.Infrastructure\\Repositories\\OrderItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T16:22:39.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IOrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IOrderItemRepository.cs",
+              "RelativeDocumentMoniker": "WebShop.Domain\\Repositories\\IOrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IOrderItemRepository.cs",
+              "RelativeToolTip": "WebShop.Domain\\Repositories\\IOrderItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T16:20:39.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "UpdateAdminCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Commands\\UpdateCommands\\UpdateAdminCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Admins\\Commands\\UpdateCommands\\UpdateAdminCommand.cs",
@@ -435,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 24,
               "Title": "UpdateUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Commands\\UpdateCommands\\UpdateUserCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Users\\Commands\\UpdateCommands\\UpdateUserCommand.cs",
@@ -448,33 +762,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 23,
               "Title": "UpdateAdminCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Commands\\UpdateCommands\\UpdateAdminCommandHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Admins\\Commands\\UpdateCommands\\UpdateAdminCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Commands\\UpdateCommands\\UpdateAdminCommandHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Admins\\Commands\\UpdateCommands\\UpdateAdminCommandHandler.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB0AAAAeAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAIBJwB0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T10:29:16.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\Admin.cs",
-              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\Admin.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\Admin.cs",
-              "RelativeToolTip": "WebShop.Domain\\Entities\\Admin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:35:52.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 26,
               "Title": "OrderItemController.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Controllers\\OrderItemController.cs",
               "RelativeDocumentMoniker": "WebShop.API\\Controllers\\OrderItemController.cs",
@@ -487,46 +788,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 27,
               "Title": "DeleteAdminCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Commands\\DeleteCommands\\DeleteAdminCommandHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Admins\\Commands\\DeleteCommands\\DeleteAdminCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Commands\\DeleteCommands\\DeleteAdminCommandHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Admins\\Commands\\DeleteCommands\\DeleteAdminCommandHandler.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABcAAAA0AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBJwBcAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T10:24:19.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 25,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "WebShop.API\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Controllers\\UsersController.cs",
               "RelativeToolTip": "WebShop.API\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAADsAAABOAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAIBJwDsAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T13:44:11.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 28,
               "Title": "DeleteUserCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Commands\\DeleteCommands\\DeleteUserCommandHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Users\\Commands\\DeleteCommands\\DeleteUserCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Commands\\DeleteCommands\\DeleteUserCommandHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Users\\Commands\\DeleteCommands\\DeleteUserCommandHandler.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABEAAAAIAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAIBJwBEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T11:07:41.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 29,
               "Title": "DeleteUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Commands\\DeleteCommands\\DeleteUserCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Users\\Commands\\DeleteCommands\\DeleteUserCommand.cs",
@@ -539,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 30,
               "Title": "DeleteAdminCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Commands\\DeleteCommands\\DeleteAdminCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Admins\\Commands\\DeleteCommands\\DeleteAdminCommand.cs",
@@ -552,20 +853,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 31,
               "Title": "CreateAdminCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Commands\\CreateCommands\\CreateAdminCommandHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Admins\\Commands\\CreateCommands\\CreateAdminCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Commands\\CreateCommands\\CreateAdminCommandHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Admins\\Commands\\CreateCommands\\CreateAdminCommandHandler.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABMAAAAvAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAIBJwBMAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T10:17:42.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 33,
               "Title": "CreateUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Commands\\CreateCommands\\CreateUserCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Users\\Commands\\CreateCommands\\CreateUserCommand.cs",
@@ -578,20 +879,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 32,
               "Title": "CreateUserCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Commands\\CreateCommands\\CreateUserCommandHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Users\\Commands\\CreateCommands\\CreateUserCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Commands\\CreateCommands\\CreateUserCommandHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Users\\Commands\\CreateCommands\\CreateUserCommandHandler.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABIAAAAIAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAIBJwBIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T10:10:02.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 34,
               "Title": "CreateAdminCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Commands\\CreateCommands\\CreateAdminCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Admins\\Commands\\CreateCommands\\CreateAdminCommand.cs",
@@ -604,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 36,
               "Title": "GetAllAdminsQuery.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Queries\\GetAll\\GetAllAdminsQuery.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Admins\\Queries\\GetAll\\GetAllAdminsQuery.cs",
@@ -617,33 +918,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 37,
               "Title": "GetUserByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Queries\\GetUserById\\GetUserByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Users\\Queries\\GetUserById\\GetUserByIdQueryHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Queries\\GetUserById\\GetUserByIdQueryHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Users\\Queries\\GetUserById\\GetUserByIdQueryHandler.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABgAAAABAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAIBJwBgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T10:27:51.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 35,
               "Title": "GetAllAdminsQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Queries\\GetAll\\GetAllAdminsQueryHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Admins\\Queries\\GetAll\\GetAllAdminsQueryHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Queries\\GetAll\\GetAllAdminsQueryHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Admins\\Queries\\GetAll\\GetAllAdminsQueryHandler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T10:00:55.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 38,
               "Title": "GetUserByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Queries\\GetUserById\\GetUserByIdQuery.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Users\\Queries\\GetUserById\\GetUserByIdQuery.cs",
@@ -656,20 +957,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 39,
               "Title": "GetAdminByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Queries\\GetById\\GetAdminByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Admins\\Queries\\GetById\\GetAdminByIdQueryHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Queries\\GetById\\GetAdminByIdQueryHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Admins\\Queries\\GetById\\GetAdminByIdQueryHandler.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABUAAAAUAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAIBJwBUAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T10:07:32.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 40,
               "Title": "GetAdminByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Queries\\GetById\\GetAdminByIdQuery.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Admins\\Queries\\GetById\\GetAdminByIdQuery.cs",
@@ -682,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 41,
               "Title": "GetAllUsersQuery.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Queries\\GetAllUsers\\GetAllUsersQuery.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Users\\Queries\\GetAllUsers\\GetAllUsersQuery.cs",
@@ -695,7 +996,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 42,
               "Title": "GetAllUsersQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Queries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Users\\Queries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
@@ -708,19 +1009,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 44,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "WebShop.API\\Controllers\\OrdersController.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "WebShop.API\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAACUAAAAZAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAIBJwCUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T09:58:15.801Z"
+              "WhenOpened": "2024-04-19T09:58:15.801Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 45,
               "Title": "AdminDto.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Admins\\Dtos\\AdminDto.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Admins\\Dtos\\AdminDto.cs",
@@ -728,11 +1030,12 @@
               "RelativeToolTip": "WebShop.Application\\Admins\\Dtos\\AdminDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T09:10:06.557Z"
+              "WhenOpened": "2024-04-20T09:10:06.557Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 43,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "WebShop.API\\Controllers\\ProductsController.cs",
@@ -740,11 +1043,12 @@
               "RelativeToolTip": "WebShop.API\\Controllers\\ProductsController.cs",
               "ViewState": "AQIAADMAAAAAAAAAAAAkwD4AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:00:40.337Z"
+              "WhenOpened": "2024-04-20T08:00:40.337Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 46,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Dtos\\UserDto.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Users\\Dtos\\UserDto.cs",
@@ -752,35 +1056,25 @@
               "RelativeToolTip": "WebShop.Application\\Users\\Dtos\\UserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T07:30:32.617Z"
+              "WhenOpened": "2024-04-17T07:30:32.617Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 47,
               "Title": "UsersProfile.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Dtos\\UsersProfile.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Users\\Dtos\\UsersProfile.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Users\\Dtos\\UsersProfile.cs",
               "RelativeToolTip": "WebShop.Application\\Users\\Dtos\\UsersProfile.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABMAAAAIAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBQwBMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T07:55:44.738Z"
+              "WhenOpened": "2024-04-17T07:55:44.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ServiceCollectionExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeToolTip": "WebShop.Infrastructure\\Extensions\\ServiceCollectionExtension.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAgwB8AAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T14:32:17.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 48,
               "Title": "WebShop.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\WebShop.Domain.csproj",
               "RelativeDocumentMoniker": "WebShop.Domain\\WebShop.Domain.csproj",
@@ -788,107 +1082,38 @@
               "RelativeToolTip": "WebShop.Domain\\WebShop.Domain.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-12T14:22:11.824Z"
+              "WhenOpened": "2024-04-12T14:22:11.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AdminRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\AdminRepository.cs",
-              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Repositories\\AdminRepository.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\AdminRepository.cs",
-              "RelativeToolTip": "WebShop.Infrastructure\\Repositories\\AdminRepository.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:58:45.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Repositories\\UsersRepository.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\UsersRepository.cs",
-              "RelativeToolTip": "WebShop.Infrastructure\\Repositories\\UsersRepository.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAACUAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T14:12:17.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "OrderItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\OrderItemRepository.cs",
-              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Repositories\\OrderItemRepository.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\OrderItemRepository.cs",
-              "RelativeToolTip": "WebShop.Infrastructure\\Repositories\\OrderItemRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T16:22:39.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IAdminsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IAdminsRepository.cs",
-              "RelativeDocumentMoniker": "WebShop.Domain\\Repositories\\IAdminsRepository.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IAdminsRepository.cs",
-              "RelativeToolTip": "WebShop.Domain\\Repositories\\IAdminsRepository.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:56:34.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IOrderItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IOrderItemRepository.cs",
-              "RelativeDocumentMoniker": "WebShop.Domain\\Repositories\\IOrderItemRepository.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IOrderItemRepository.cs",
-              "RelativeToolTip": "WebShop.Domain\\Repositories\\IOrderItemRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T16:20:39.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 51,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\ProductDto.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Products\\ProductDto.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\ProductDto.cs",
               "RelativeToolTip": "WebShop.Application\\Products\\ProductDto.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAvAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBQAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T08:21:11.982Z"
+              "WhenOpened": "2024-04-17T08:21:11.982Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IUsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IUsersRepository.cs",
-              "RelativeDocumentMoniker": "WebShop.Domain\\Repositories\\IUsersRepository.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IUsersRepository.cs",
-              "RelativeToolTip": "WebShop.Domain\\Repositories\\IUsersRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T14:09:13.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 52,
               "Title": "CreateProductCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Commands\\CreateCommands\\CreateProductCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Products\\Commands\\CreateCommands\\CreateProductCommand.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Commands\\CreateCommands\\CreateProductCommand.cs",
               "RelativeToolTip": "WebShop.Application\\Products\\Commands\\CreateCommands\\CreateProductCommand.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAkAAAAyAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAIBJwAkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:24:37.157Z"
+              "WhenOpened": "2024-04-20T08:24:37.157Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 50,
               "Title": "ProductsProfile.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\ProductsProfile.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Products\\ProductsProfile.cs",
@@ -896,71 +1121,64 @@
               "RelativeToolTip": "WebShop.Application\\Products\\ProductsProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T15:01:32.63Z"
+              "WhenOpened": "2024-04-17T15:01:32.63Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 49,
               "Title": "CreateOrderItemCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Commands\\CreateCommans\\CreateOrderItemCommandHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\OrderItems\\Commands\\CreateCommans\\CreateOrderItemCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Commands\\CreateCommans\\CreateOrderItemCommandHandler.cs",
               "RelativeToolTip": "WebShop.Application\\OrderItems\\Commands\\CreateCommans\\CreateOrderItemCommandHandler.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAACYAAAAoAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAIBJwCYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:30:56.985Z"
+              "WhenOpened": "2024-04-19T17:30:56.985Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 54,
               "Title": "UpdateProductCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Commands\\UpdateCommands\\UpdateProductCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Products\\Commands\\UpdateCommands\\UpdateProductCommand.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Commands\\UpdateCommands\\UpdateProductCommand.cs",
               "RelativeToolTip": "WebShop.Application\\Products\\Commands\\UpdateCommands\\UpdateProductCommand.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAIBJwAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:36:49.524Z"
+              "WhenOpened": "2024-04-20T08:36:49.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 53,
               "Title": "UpdateProductCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Commands\\UpdateCommands\\UpdateProductCommandHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Products\\Commands\\UpdateCommands\\UpdateProductCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Commands\\UpdateCommands\\UpdateProductCommandHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Products\\Commands\\UpdateCommands\\UpdateProductCommandHandler.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAABsAAAAfAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAIBJwBsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:36:59.434Z"
+              "WhenOpened": "2024-04-20T08:36:59.434Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "WebShop.Domain\\Entities\\Product.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAkwAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T13:49:09.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 55,
               "Title": "DeleteProductCommandHnadler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Commands\\DeleteCommands\\DeleteProductCommandHnadler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Products\\Commands\\DeleteCommands\\DeleteProductCommandHnadler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Commands\\DeleteCommands\\DeleteProductCommandHnadler.cs",
               "RelativeToolTip": "WebShop.Application\\Products\\Commands\\DeleteCommands\\DeleteProductCommandHnadler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAFAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:31:31.372Z"
+              "WhenOpened": "2024-04-20T08:31:31.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 56,
               "Title": "DeleteProductCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Commands\\DeleteCommands\\DeleteProductCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Products\\Commands\\DeleteCommands\\DeleteProductCommand.cs",
@@ -968,23 +1186,25 @@
               "RelativeToolTip": "WebShop.Application\\Products\\Commands\\DeleteCommands\\DeleteProductCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:31:23.533Z"
+              "WhenOpened": "2024-04-20T08:31:23.533Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 57,
               "Title": "CreateProductCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Commands\\CreateCommands\\CreateProductCommandHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Products\\Commands\\CreateCommands\\CreateProductCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Commands\\CreateCommands\\CreateProductCommandHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Products\\Commands\\CreateCommands\\CreateProductCommandHandler.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABQAAAA5AAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAIBJwBQAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:24:46.383Z"
+              "WhenOpened": "2024-04-20T08:24:46.383Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 59,
               "Title": "GetProductByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Queries\\GetById\\GetProductByIdQuery.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Products\\Queries\\GetById\\GetProductByIdQuery.cs",
@@ -992,23 +1212,25 @@
               "RelativeToolTip": "WebShop.Application\\Products\\Queries\\GetById\\GetProductByIdQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:19:44.826Z"
+              "WhenOpened": "2024-04-20T08:19:44.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 58,
               "Title": "GetProductByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Queries\\GetById\\GetProductByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Products\\Queries\\GetById\\GetProductByIdQueryHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Queries\\GetById\\GetProductByIdQueryHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Products\\Queries\\GetById\\GetProductByIdQueryHandler.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABgAAAAZAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAIBJwBgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:19:54.194Z"
+              "WhenOpened": "2024-04-20T08:19:54.194Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 61,
               "Title": "ProductsRepository.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\ProductsRepository.cs",
               "RelativeDocumentMoniker": "WebShop.Infrastructure\\Repositories\\ProductsRepository.cs",
@@ -1016,35 +1238,38 @@
               "RelativeToolTip": "WebShop.Infrastructure\\Repositories\\ProductsRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:13:59.545Z"
+              "WhenOpened": "2024-04-20T08:13:59.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 60,
               "Title": "GetAllProductsQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Queries\\GetAll\\GetAllProductsQueryHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Products\\Queries\\GetAll\\GetAllProductsQueryHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Queries\\GetAll\\GetAllProductsQueryHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Products\\Queries\\GetAll\\GetAllProductsQueryHandler.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAIBJwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:09:11.776Z"
+              "WhenOpened": "2024-04-20T08:09:11.776Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 62,
               "Title": "IProductsRepository.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IProductsRepository.cs",
               "RelativeDocumentMoniker": "WebShop.Domain\\Repositories\\IProductsRepository.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IProductsRepository.cs",
               "RelativeToolTip": "WebShop.Domain\\Repositories\\IProductsRepository.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAIBJwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:12:31.787Z"
+              "WhenOpened": "2024-04-20T08:12:31.787Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 63,
               "Title": "GetAllProductsQuery.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Products\\Queries\\GetAll\\GetAllProductsQuery.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Products\\Queries\\GetAll\\GetAllProductsQuery.cs",
@@ -1052,47 +1277,38 @@
               "RelativeToolTip": "WebShop.Application\\Products\\Queries\\GetAll\\GetAllProductsQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:09:03.061Z"
+              "WhenOpened": "2024-04-20T08:09:03.061Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "DataSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Seeders\\DataSeeder.cs",
-              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Seeders\\DataSeeder.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Seeders\\DataSeeder.cs",
-              "RelativeToolTip": "WebShop.Infrastructure\\Seeders\\DataSeeder.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAACoAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T08:44:36.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 68,
               "Title": "OrderItemsProfile.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Dtos\\OrderItemsProfile.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\OrderItems\\Dtos\\OrderItemsProfile.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Dtos\\OrderItemsProfile.cs",
               "RelativeToolTip": "WebShop.Application\\OrderItems\\Dtos\\OrderItemsProfile.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABMAAAAMAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBJwBMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T14:34:03.29Z"
+              "WhenOpened": "2024-04-17T14:34:03.29Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 67,
               "Title": "CreateOrderCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Commands\\CreateOrderCommandHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Orders\\Commands\\CreateOrderCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Commands\\CreateOrderCommandHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Orders\\Commands\\CreateOrderCommandHandler.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAABwAAAAdAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAIBQwBwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T10:05:53.836Z"
+              "WhenOpened": "2024-04-19T10:05:53.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 64,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\OrderItem.cs",
               "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\OrderItem.cs",
@@ -1100,11 +1316,12 @@
               "RelativeToolTip": "WebShop.Domain\\Entities\\OrderItem.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAswAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:37:05.416Z"
+              "WhenOpened": "2024-04-12T15:37:05.416Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 65,
               "Title": "UpdateOrderItemCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Commands\\UpdateCommands\\UpdateOrderItemCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\OrderItems\\Commands\\UpdateCommands\\UpdateOrderItemCommand.cs",
@@ -1112,35 +1329,38 @@
               "RelativeToolTip": "WebShop.Application\\OrderItems\\Commands\\UpdateCommands\\UpdateOrderItemCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:40:43.281Z"
+              "WhenOpened": "2024-04-19T17:40:43.281Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 66,
               "Title": "UpdateOrderItemCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Commands\\UpdateCommands\\UpdateOrderItemCommandHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\OrderItems\\Commands\\UpdateCommands\\UpdateOrderItemCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Commands\\UpdateCommands\\UpdateOrderItemCommandHandler.cs",
               "RelativeToolTip": "WebShop.Application\\OrderItems\\Commands\\UpdateCommands\\UpdateOrderItemCommandHandler.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAhAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwB8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:41:09.404Z"
+              "WhenOpened": "2024-04-19T17:41:09.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 69,
               "Title": "OrderItemDto.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Dtos\\OrderItemDto.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\OrderItems\\Dtos\\OrderItemDto.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Dtos\\OrderItemDto.cs",
               "RelativeToolTip": "WebShop.Application\\OrderItems\\Dtos\\OrderItemDto.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABEAAAAIAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAIBJwBEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T14:34:02.243Z"
+              "WhenOpened": "2024-04-17T14:34:02.243Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 70,
               "Title": "CreateOrderItemCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Commands\\CreateCommans\\CreateOrderItemCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\OrderItems\\Commands\\CreateCommans\\CreateOrderItemCommand.cs",
@@ -1148,35 +1368,38 @@
               "RelativeToolTip": "WebShop.Application\\OrderItems\\Commands\\CreateCommans\\CreateOrderItemCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:30:49.633Z"
+              "WhenOpened": "2024-04-19T17:30:49.633Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 71,
               "Title": "CreateOrderCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Commands\\CreateOrderCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Orders\\Commands\\CreateOrderCommand.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Commands\\CreateOrderCommand.cs",
               "RelativeToolTip": "WebShop.Application\\Orders\\Commands\\CreateOrderCommand.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T10:05:33.335Z"
+              "WhenOpened": "2024-04-19T10:05:33.335Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 72,
               "Title": "ErrorHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Middlewares\\ErrorHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "WebShop.API\\Middlewares\\ErrorHandlingMiddleware.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Middlewares\\ErrorHandlingMiddleware.cs",
               "RelativeToolTip": "WebShop.API\\Middlewares\\ErrorHandlingMiddleware.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA3wBIAAAA0AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwBIAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T15:34:30.216Z"
+              "WhenOpened": "2024-04-18T15:34:30.216Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 73,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\Order.cs",
@@ -1184,11 +1407,12 @@
               "RelativeToolTip": "WebShop.Domain\\Entities\\Order.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAgwBQAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T10:50:24.337Z"
+              "WhenOpened": "2024-04-19T10:50:24.337Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 74,
               "Title": "OrdersRepository.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Repositories\\OrdersRepository.cs",
               "RelativeDocumentMoniker": "WebShop.Infrastructure\\Repositories\\OrdersRepository.cs",
@@ -1196,11 +1420,12 @@
               "RelativeToolTip": "WebShop.Infrastructure\\Repositories\\OrdersRepository.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAQwCgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T10:27:23.613Z"
+              "WhenOpened": "2024-04-19T10:27:23.613Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 75,
               "Title": "WebShopDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Persistence\\WebShopDbContext.cs",
               "RelativeDocumentMoniker": "WebShop.Infrastructure\\Persistence\\WebShopDbContext.cs",
@@ -1208,11 +1433,12 @@
               "RelativeToolTip": "WebShop.Infrastructure\\Persistence\\WebShopDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:26:01.412Z"
+              "WhenOpened": "2024-04-15T09:26:01.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 76,
               "Title": "OrdersProfile.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Dtos\\OrdersProfile.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Orders\\Dtos\\OrdersProfile.cs",
@@ -1220,23 +1446,25 @@
               "RelativeToolTip": "WebShop.Application\\Orders\\Dtos\\OrdersProfile.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAgwBwAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T08:12:23.44Z"
+              "WhenOpened": "2024-04-17T08:12:23.44Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 77,
               "Title": "DeleteOrderItemCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Commands\\DeleteCommands\\DeleteOrderItemCommandHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\OrderItems\\Commands\\DeleteCommands\\DeleteOrderItemCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Commands\\DeleteCommands\\DeleteOrderItemCommandHandler.cs",
               "RelativeToolTip": "WebShop.Application\\OrderItems\\Commands\\DeleteCommands\\DeleteOrderItemCommandHandler.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABYAAABVAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBQwBYAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:36:18.972Z"
+              "WhenOpened": "2024-04-19T17:36:18.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 78,
               "Title": "DeleteOrderItemCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Commands\\DeleteCommands\\DeleteOrderItemCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\OrderItems\\Commands\\DeleteCommands\\DeleteOrderItemCommand.cs",
@@ -1244,23 +1472,25 @@
               "RelativeToolTip": "WebShop.Application\\OrderItems\\Commands\\DeleteCommands\\DeleteOrderItemCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:35:55.362Z"
+              "WhenOpened": "2024-04-19T17:35:55.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 79,
               "Title": "GetAllOrderItemsQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Queries\\GetAllOrderItemsQueryHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\OrderItems\\Queries\\GetAllOrderItemsQueryHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Queries\\GetAllOrderItemsQueryHandler.cs",
               "RelativeToolTip": "WebShop.Application\\OrderItems\\Queries\\GetAllOrderItemsQueryHandler.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABkAAAAFAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAIBJwBkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T16:17:11.233Z"
+              "WhenOpened": "2024-04-19T16:17:11.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 81,
               "Title": "GetOrderItemByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Queries\\GetOrderItemByIdQuery.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\OrderItems\\Queries\\GetOrderItemByIdQuery.cs",
@@ -1268,35 +1498,38 @@
               "RelativeToolTip": "WebShop.Application\\OrderItems\\Queries\\GetOrderItemByIdQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:16:06.218Z"
+              "WhenOpened": "2024-04-19T17:16:06.218Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 80,
               "Title": "GetOrderItemByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Queries\\GetOrderItemByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\OrderItems\\Queries\\GetOrderItemByIdQueryHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Queries\\GetOrderItemByIdQueryHandler.cs",
               "RelativeToolTip": "WebShop.Application\\OrderItems\\Queries\\GetOrderItemByIdQueryHandler.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABQAAAA6AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBJwBQAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:16:31.593Z"
+              "WhenOpened": "2024-04-19T17:16:31.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 82,
               "Title": "GetOrderByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Queries\\GetOrderByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Orders\\Queries\\GetOrderByIdQueryHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Queries\\GetOrderByIdQueryHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Orders\\Queries\\GetOrderByIdQueryHandler.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAABDAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwBoAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:49:06.599Z"
+              "WhenOpened": "2024-04-19T14:49:06.599Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 83,
               "Title": "GetOrderByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Queries\\GetOrderByIdQuery.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Orders\\Queries\\GetOrderByIdQuery.cs",
@@ -1304,11 +1537,12 @@
               "RelativeToolTip": "WebShop.Application\\Orders\\Queries\\GetOrderByIdQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:48:11.273Z"
+              "WhenOpened": "2024-04-19T14:48:11.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 84,
               "Title": "GetAllOrderItemsQuery.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\OrderItems\\Queries\\GetAllOrderItemsQuery.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\OrderItems\\Queries\\GetAllOrderItemsQuery.cs",
@@ -1316,23 +1550,12 @@
               "RelativeToolTip": "WebShop.Application\\OrderItems\\Queries\\GetAllOrderItemsQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T16:17:02.864Z"
+              "WhenOpened": "2024-04-19T16:17:02.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "IDataSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Seeders\\IDataSeeder.cs",
-              "RelativeDocumentMoniker": "WebShop.Infrastructure\\Seeders\\IDataSeeder.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Seeders\\IDataSeeder.cs",
-              "RelativeToolTip": "WebShop.Infrastructure\\Seeders\\IDataSeeder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T10:04:52.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 85,
               "Title": "GetAllOrdersQuery.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Queries\\GetAllOrdersQuery.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Orders\\Queries\\GetAllOrdersQuery.cs",
@@ -1340,23 +1563,25 @@
               "RelativeToolTip": "WebShop.Application\\Orders\\Queries\\GetAllOrdersQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T15:08:54.839Z"
+              "WhenOpened": "2024-04-19T15:08:54.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 86,
               "Title": "GetAllOrdersQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Queries\\GetAllOrdersQueryHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Orders\\Queries\\GetAllOrdersQueryHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Queries\\GetAllOrdersQueryHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Orders\\Queries\\GetAllOrdersQueryHandler.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAaAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T15:09:18.65Z"
+              "WhenOpened": "2024-04-19T15:09:18.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 87,
               "Title": "IOrdersRepository.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Repositories\\IOrdersRepository.cs",
               "RelativeDocumentMoniker": "WebShop.Domain\\Repositories\\IOrdersRepository.cs",
@@ -1364,23 +1589,25 @@
               "RelativeToolTip": "WebShop.Domain\\Repositories\\IOrdersRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T10:24:41.974Z"
+              "WhenOpened": "2024-04-19T10:24:41.974Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 88,
               "Title": "DeleteOrderCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Commands\\DeleteCommands\\DeleteOrderCommandHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Orders\\Commands\\DeleteCommands\\DeleteOrderCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Commands\\DeleteCommands\\DeleteOrderCommandHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Orders\\Commands\\DeleteCommands\\DeleteOrderCommandHandler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAApAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T15:57:36.95Z"
+              "WhenOpened": "2024-04-19T15:57:36.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 89,
               "Title": "DeleteOrderCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Commands\\DeleteCommands\\DeleteOrderCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Orders\\Commands\\DeleteCommands\\DeleteOrderCommand.cs",
@@ -1388,11 +1615,12 @@
               "RelativeToolTip": "WebShop.Application\\Orders\\Commands\\DeleteCommands\\DeleteOrderCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T15:57:22.663Z"
+              "WhenOpened": "2024-04-19T15:57:22.663Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 90,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Dtos\\OrderDto.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Orders\\Dtos\\OrderDto.cs",
@@ -1400,59 +1628,51 @@
               "RelativeToolTip": "WebShop.Application\\Orders\\Dtos\\OrderDto.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAiwAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T14:32:40.35Z"
+              "WhenOpened": "2024-04-17T14:32:40.35Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 91,
               "Title": "UpdateOrderCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Commands\\UpdateCommand\\UpdateOrderCommandHandler.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Orders\\Commands\\UpdateCommand\\UpdateOrderCommandHandler.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Commands\\UpdateCommand\\UpdateOrderCommandHandler.cs",
               "RelativeToolTip": "WebShop.Application\\Orders\\Commands\\UpdateCommand\\UpdateOrderCommandHandler.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAAB8AAAAeAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAIBQwB8AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T15:45:31.626Z"
+              "WhenOpened": "2024-04-19T15:45:31.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 92,
               "Title": "UpdateOrderCommand.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Commands\\UpdateCommand\\UpdateOrderCommand.cs",
               "RelativeDocumentMoniker": "WebShop.Application\\Orders\\Commands\\UpdateCommand\\UpdateOrderCommand.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Orders\\Commands\\UpdateCommand\\UpdateOrderCommand.cs",
               "RelativeToolTip": "WebShop.Application\\Orders\\Commands\\UpdateCommand\\UpdateOrderCommand.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T15:45:10.588Z"
+              "WhenOpened": "2024-04-19T15:45:10.588Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "WebShop.Domain\\Entities\\User.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAowA4AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:33:13.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 93,
               "Title": "WebShop.API.http",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\WebShop.API.http",
               "RelativeDocumentMoniker": "WebShop.API\\WebShop.API.http",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\WebShop.API.http",
               "RelativeToolTip": "WebShop.API\\WebShop.API.http",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAACoAAAALAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAABZwCoAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-04-18T11:22:20.809Z"
+              "WhenOpened": "2024-04-18T11:22:20.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 94,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Program.cs",
               "RelativeDocumentMoniker": "WebShop.API\\Program.cs",
@@ -1460,11 +1680,12 @@
               "RelativeToolTip": "WebShop.API\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T16:52:06.132Z"
+              "WhenOpened": "2024-04-17T16:52:06.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 95,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "WebShop.Domain\\Exceptions\\NotFoundException.cs",
@@ -1472,23 +1693,25 @@
               "RelativeToolTip": "WebShop.Domain\\Exceptions\\NotFoundException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T16:20:36.475Z"
+              "WhenOpened": "2024-04-18T16:20:36.475Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 108,
               "Title": "20240419135833_colProccesed.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Migrations\\20240419135833_colProccesed.cs",
               "RelativeDocumentMoniker": "WebShop.Infrastructure\\Migrations\\20240419135833_colProccesed.cs",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Migrations\\20240419135833_colProccesed.cs",
               "RelativeToolTip": "WebShop.Infrastructure\\Migrations\\20240419135833_colProccesed.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T13:58:33.306Z"
+              "WhenOpened": "2024-04-19T13:58:33.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 96,
               "Title": "RequestTimeLoggingMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Middlewares\\RequestTimeLoggingMiddleware.cs",
               "RelativeDocumentMoniker": "WebShop.API\\Middlewares\\RequestTimeLoggingMiddleware.cs",
@@ -1496,11 +1719,12 @@
               "RelativeToolTip": "WebShop.API\\Middlewares\\RequestTimeLoggingMiddleware.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T09:24:11.438Z"
+              "WhenOpened": "2024-04-19T09:24:11.438Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 97,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebShop.API\\appsettings.Development.json",
@@ -1508,35 +1732,38 @@
               "RelativeToolTip": "WebShop.API\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-15T16:21:21.659Z"
+              "WhenOpened": "2024-04-15T16:21:21.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 98,
               "Title": "WebShop-API-20240418.log",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Logs\\WebShop-API-20240418.log",
               "RelativeDocumentMoniker": "WebShop.API\\Logs\\WebShop-API-20240418.log",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Logs\\WebShop-API-20240418.log",
               "RelativeToolTip": "WebShop.API\\Logs\\WebShop-API-20240418.log",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAIBJwEoAAAAAAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-04-18T14:27:10.848Z"
+              "WhenOpened": "2024-04-18T14:27:10.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 99,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebShop.API\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Properties\\launchSettings.json",
               "RelativeToolTip": "WebShop.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAABkAAAA9AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAABRwBkAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-16T16:25:37.456Z"
+              "WhenOpened": "2024-04-16T16:25:37.456Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 101,
               "Title": "WebShop.API.csproj",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\WebShop.API.csproj",
               "RelativeDocumentMoniker": "WebShop.API\\WebShop.API.csproj",
@@ -1544,11 +1771,12 @@
               "RelativeToolTip": "WebShop.API\\WebShop.API.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-15T14:41:34.834Z"
+              "WhenOpened": "2024-04-15T14:41:34.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 102,
               "Title": "WebShop-API-20240418.log",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\Logs\\WebShop-API-20240418.log",
               "RelativeDocumentMoniker": "WebShop.API\\Logs\\WebShop-API-20240418.log",
@@ -1556,22 +1784,24 @@
               "RelativeToolTip": "WebShop.API\\Logs\\WebShop-API-20240418.log",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAAAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-04-18T14:26:53.152Z"
+              "WhenOpened": "2024-04-18T14:26:53.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 100,
               "Title": "WebShop.API",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\WebShop.API.csproj",
               "RelativeDocumentMoniker": "WebShop.API\\WebShop.API.csproj",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\WebShop.API.csproj",
               "RelativeToolTip": "WebShop.API\\WebShop.API.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-18T15:05:05.48Z"
+              "WhenOpened": "2024-04-18T15:05:05.48Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 103,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\appsettings.json",
               "RelativeDocumentMoniker": "WebShop.API\\appsettings.json",
@@ -1579,47 +1809,12 @@
               "RelativeToolTip": "WebShop.API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-15T16:21:19.704Z"
+              "WhenOpened": "2024-04-15T16:21:19.704Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
-              "Title": "ServiceCollectionExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeDocumentMoniker": "WebShop.Application\\Extensions\\ServiceCollectionExtension.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeToolTip": "WebShop.Application\\Extensions\\ServiceCollectionExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T14:36:16.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 95,
-              "Title": "WebShop.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj",
-              "RelativeDocumentMoniker": "WebShop.Application\\WebShop.Application.csproj",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj",
-              "RelativeToolTip": "WebShop.Application\\WebShop.Application.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-12T14:18:37.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 96,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\Address.cs",
-              "RelativeDocumentMoniker": "WebShop.Domain\\Entities\\Address.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\Entities\\Address.cs",
-              "RelativeToolTip": "WebShop.Domain\\Entities\\Address.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:47:59.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 106,
               "Title": "20240417141153_ModelNullableFix.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Migrations\\20240417141153_ModelNullableFix.cs",
               "RelativeDocumentMoniker": "WebShop.Infrastructure\\Migrations\\20240417141153_ModelNullableFix.cs",
@@ -1627,11 +1822,12 @@
               "RelativeToolTip": "WebShop.Infrastructure\\Migrations\\20240417141153_ModelNullableFix.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T14:11:54.028Z"
+              "WhenOpened": "2024-04-17T14:11:54.028Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 107,
               "Title": "20240417141639_ModelNullableFix2.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Migrations\\20240417141639_ModelNullableFix2.cs",
               "RelativeDocumentMoniker": "WebShop.Infrastructure\\Migrations\\20240417141639_ModelNullableFix2.cs",
@@ -1639,11 +1835,12 @@
               "RelativeToolTip": "WebShop.Infrastructure\\Migrations\\20240417141639_ModelNullableFix2.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T14:16:39.697Z"
+              "WhenOpened": "2024-04-17T14:16:39.697Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 104,
               "Title": "20240415140451_Init.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\Migrations\\20240415140451_Init.cs",
               "RelativeDocumentMoniker": "WebShop.Infrastructure\\Migrations\\20240415140451_Init.cs",
@@ -1651,11 +1848,12 @@
               "RelativeToolTip": "WebShop.Infrastructure\\Migrations\\20240415140451_Init.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAG4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T14:04:52.05Z"
+              "WhenOpened": "2024-04-15T14:04:52.05Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 105,
               "Title": "WebShop.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\Backend-EONIS\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj",
               "RelativeDocumentMoniker": "WebShop.Infrastructure\\WebShop.Infrastructure.csproj",
@@ -1663,7 +1861,8 @@
               "RelativeToolTip": "WebShop.Infrastructure\\WebShop.Infrastructure.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-15T09:23:20.181Z"
+              "WhenOpened": "2024-04-15T09:23:20.181Z",
+              "EditorCaption": ""
             }
           ]
         }

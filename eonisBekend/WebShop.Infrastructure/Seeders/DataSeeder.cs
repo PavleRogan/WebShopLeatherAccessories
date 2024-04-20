@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using WebShop.Domain.Entities;
@@ -10,7 +11,30 @@ namespace WebShop.Infrastructure.Seeders
 {
     internal class DataSeeder(WebShopDbContext dbContext) : IDataSeeder
     {
-        
+         Tuple<string, string>  hashedPasswordAndSalt = HashPassword("password");
+        Tuple<string, string> hashedPasswordAndSalt2 = HashPassword("password");
+        Tuple<string, string> hashedAdminPasswordAndSalt = HashPassword("admin");
+
+
+
+        private readonly static int iterations = 1000;
+
+        private static Tuple<string, string> HashPassword(string password)
+        {
+            var sBytes = new byte[password.Length];
+            new RNGCryptoServiceProvider().GetNonZeroBytes(sBytes);
+            var salt = Convert.ToBase64String(sBytes);
+
+            var derivedBytes = new Rfc2898DeriveBytes(password, sBytes, iterations);
+
+            return new Tuple<string, string>
+            (
+                Convert.ToBase64String(derivedBytes.GetBytes(256)),
+                salt
+            );
+        }
+
+
         public async Task Seed()
         {
             if (await dbContext.Database.CanConnectAsync())
@@ -58,7 +82,8 @@ namespace WebShop.Infrastructure.Seeders
                 {
                     AdminId = Guid.NewGuid(),
                     Username = "admin",
-                    Password = "admin" 
+                    Password = hashedAdminPasswordAndSalt.Item1,
+                    Salt = hashedAdminPasswordAndSalt.Item2
                 }
             };
         }
@@ -99,7 +124,8 @@ namespace WebShop.Infrastructure.Seeders
                 UserId = userId1,
                 Name = "John Doe",
                 Email = "john@example.com",
-                Password = "password123",
+                Password = hashedPasswordAndSalt2.Item1,
+                Salt = hashedPasswordAndSalt2.Item2,
                 Address = new()
                 {
                     City = "New York",
@@ -132,7 +158,8 @@ namespace WebShop.Infrastructure.Seeders
                 UserId = userId2,
                 Name = "Jane Smith",
                 Email = "jane@example.com",
-                Password = "password456",
+                Password = hashedPasswordAndSalt.Item1,
+                Salt = hashedPasswordAndSalt.Item2,
                 Address = new Address
                 {
                     City = "Los Angeles",

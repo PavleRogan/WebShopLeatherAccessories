@@ -15,5 +15,7 @@ public interface IUsersRepository
 
     Task SaveChanges();
 
+    bool UserWithCredentialsExists(string email, string password);
+
 
 }

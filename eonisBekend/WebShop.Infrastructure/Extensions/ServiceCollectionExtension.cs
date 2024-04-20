@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebShop.API.Helpers;
 using WebShop.Domain.Repositories;
 using WebShop.Infrastructure.Persistence;
 using WebShop.Infrastructure.Repositories;
@@ -30,6 +31,9 @@ public static class ServiceCollectionExtension
         services.AddScoped<IOrderItemRepository, OrderItemRepository>();
         services.AddScoped<IProductsRepository, ProductsRepository>();
         services.AddScoped<IAdminsRepository, AdminRepository>();
+
+        services.AddScoped<IAuthHelper, AuthHelper>();
+        
     }
 
 } 

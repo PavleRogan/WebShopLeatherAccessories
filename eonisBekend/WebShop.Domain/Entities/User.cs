@@ -14,6 +14,8 @@ namespace WebShop.Domain.Entities
         public string Email { get; set; } = default!;
         public string Password { get; set; } = default!;
 
+        public string Salt { get; set; }
+
         public Address? Address { get; set; }
         public string? ContactNumber { get; set; }
 

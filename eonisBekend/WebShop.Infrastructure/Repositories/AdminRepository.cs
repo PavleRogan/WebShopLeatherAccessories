@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using WebShop.Domain.Entities;
@@ -12,6 +13,24 @@ namespace WebShop.Infrastructure.Repositories
 {
     internal class AdminRepository(WebShopDbContext dbContext) : IAdminsRepository
     {
+        private readonly static int iterations = 1000;
+
+        public bool AdminWithCredentialsExists(string email, string password)
+        {
+            Admin admin = dbContext.Admins.FirstOrDefault(a => a.Username == email);
+
+            if (admin == null)
+            {
+                return false;
+            }
+
+            if (VerifyPassword(password, admin.Password, admin.Salt))
+            {
+                return true;
+            }
+            return false;
+        }
+
         public async Task<Guid> Create(Admin entity)
         {
             dbContext.Admins.Add(entity);
@@ -38,5 +57,32 @@ namespace WebShop.Infrastructure.Repositories
         }
 
         public Task SaveChanges() => dbContext.SaveChangesAsync();
+
+        private Tuple<string, string> HashPassword(string password)
+        {
+            var sBytes = new byte[password.Length];
+            new RNGCryptoServiceProvider().GetNonZeroBytes(sBytes);
+            var salt = Convert.ToBase64String(sBytes);
+
+            var derivedBytes = new Rfc2898DeriveBytes(password, sBytes, iterations);
+
+            return new Tuple<string, string>
+            (
+                Convert.ToBase64String(derivedBytes.GetBytes(256)),
+                salt
+            );
+        }
+        public bool VerifyPassword(string password, string savedHash, string savedSalt)
+        {
+            var saltBytes = Convert.FromBase64String(savedSalt);
+            var rfc2898DeriveBytes = new Rfc2898DeriveBytes(password, saltBytes, iterations);
+            if (Convert.ToBase64String(rfc2898DeriveBytes.GetBytes(256)) == savedHash)
+            {
+                return true;
+            }
+            return false;
+        }
     }
+
+
 }

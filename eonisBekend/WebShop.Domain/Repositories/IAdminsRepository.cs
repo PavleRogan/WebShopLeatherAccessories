@@ -17,4 +17,6 @@ public interface IAdminsRepository
     Task Delete(Admin entity);
 
     Task SaveChanges();
+
+    bool AdminWithCredentialsExists(string email, string password);
 }
