@@ -14,7 +14,9 @@ namespace WebShop.Application.Orders.Commands;
 
 public class CreateOrderCommandHandler(ILogger<CreateOrderCommandHandler> logger,
     IMapper mapper, IUsersRepository usersRepository,
-    IOrdersRepository ordersRepository) : IRequestHandler<CreateOrderCommand>
+    IOrdersRepository ordersRepository,
+    IProductsRepository productsRepository,
+    IOrderItemRepository orderItemRepository) : IRequestHandler<CreateOrderCommand>
 {
     public async Task Handle(CreateOrderCommand request, CancellationToken cancellationToken)
     {
@@ -27,15 +29,29 @@ public class CreateOrderCommandHandler(ILogger<CreateOrderCommandHandler> logger
         }
 
         var order = new Order
-        {
-            OrderDate = request.OrderDate,
+        { 
+            OrderId = Guid.NewGuid(),
+            OrderDate = DateTime.Now,
             UserId = request.UserId,
-            Processed = request.Processed,
+            Processed = false,
             User = await usersRepository.GetById(request.UserId)
             
         };
 
-        await ordersRepository.Create(order);
+        foreach (var product in request.OrderItems) {
+            OrderItem orderItem = new OrderItem();
+            orderItem.OrderItemId = Guid.NewGuid();
+            orderItem.ProductId = product.ProductId;
+            orderItem.OrderId = order.OrderId;
+            orderItem.Product = await productsRepository.GetById(product.ProductId);
+            orderItem.Order = order;
+            orderItem.Quantity = product.Quantity;
+
+            await orderItemRepository.Create(orderItem);
+
+        }
+
+           // await ordersRepository.Create(order);
 
     }
 }

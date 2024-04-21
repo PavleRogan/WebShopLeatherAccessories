@@ -17,9 +17,8 @@ public class OrdersProfile : Profile
             .ForMember(dest => dest.OrderDate, opt => opt.MapFrom(src => src.OrderDate))
             .ForMember(dest => dest.OrderItems, opt => opt.MapFrom(src => src.OrderItems.Select(oi => new OrderItemDto
             {
-                OrderItemId = oi.OrderItemId,
+                
                 ProductId = oi.ProductId,
-                OrderId = oi.OrderId,
                 Quantity = oi.Quantity
             }).ToList()));
 

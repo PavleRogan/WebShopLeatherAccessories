@@ -12,11 +12,8 @@ namespace WebShop.Application.Orders.Commands;
 public class CreateOrderCommand : IRequest
 {
 
-    public DateTime OrderDate { get; set; }
-
     public Guid UserId { get; set; }
-
-    public bool Processed { get; set; }
+    public List<OrderItemDto> OrderItems { get; set; }
 
 
 }
