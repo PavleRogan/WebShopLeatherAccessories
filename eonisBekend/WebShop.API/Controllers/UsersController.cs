@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebShop.Application.Orders.Dtos;
+using WebShop.Application.Orders.Queries.GetByUserId;
 using WebShop.Application.Users;
 using WebShop.Application.Users.Commands.CreateCommands;
 using WebShop.Application.Users.Commands.DeleteCommands;
@@ -11,6 +12,7 @@ using WebShop.Application.Users.Queries.GetAllUsers;
 using WebShop.Application.Users.Queries.GetByEmail;
 using WebShop.Application.Users.Queries.GetUserById;
 using WebShop.Domain.Entities;
+using WebShop.Domain.Repositories;
 
 namespace WebShop.API.Controllers;
 
@@ -73,7 +75,20 @@ public class UsersController(IMediator mediator) : ControllerBase
         command.UserId = userId;
         await mediator.Send(command);
         return NoContent();
-        
-
+       
     }
+
+    [HttpGet("{userId}/orders")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<IEnumerable<OrderDto>>> GetUserOrders(Guid userId)
+    {
+        var orders = await mediator.Send(new GetOrdersByUserId(userId));
+        if (orders == null || !orders.Any())
+        {
+            return NoContent();
+        }
+        return Ok(orders);
+    }
+
 }

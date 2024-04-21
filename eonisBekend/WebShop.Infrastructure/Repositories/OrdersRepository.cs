@@ -40,5 +40,12 @@ internal class OrdersRepository(WebShopDbContext dbContext) : IOrdersRepository
         return order;
     }
 
+    public async Task<IEnumerable<Order>> GetByUserId(Guid userId)
+    {
+        var orders = await dbContext.Orders.Include(x => x.OrderItems)
+            .Where(o =>  userId == o.UserId).ToListAsync();
+        return orders;
+    }
+
     public Task SaveChanges() => dbContext.SaveChangesAsync();
 }
