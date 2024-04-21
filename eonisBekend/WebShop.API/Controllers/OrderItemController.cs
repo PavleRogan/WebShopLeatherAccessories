@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebShop.Application.OrderItems.Commands.CreateCommans;
 using WebShop.Application.OrderItems.Commands.DeleteCommands;
@@ -16,6 +17,7 @@ namespace WebShop.API.Controllers;
 
 [ApiController]
 [Route("api/orderItems")]
+[Authorize]
 public class OrderItemController(IMediator mediator ) : ControllerBase
 {
     [HttpGet]

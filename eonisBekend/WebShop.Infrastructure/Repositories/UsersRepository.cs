@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography;
+using WebShop.Application.Users.Dtos;
 using WebShop.Domain.Entities;
 using WebShop.Domain.Repositories;
 using WebShop.Infrastructure.Persistence;
@@ -11,6 +12,9 @@ internal class UsersRepository(WebShopDbContext dbContext) : IUsersRepository
     private readonly static int iterations = 1000;
     public async Task<Guid> Create(User entity)
     {
+        var (hashedPassword, salt) = HashPassword(entity.Password);
+        entity.Password = hashedPassword;
+        entity.Salt = salt;
         dbContext.Users.Add(entity);
         await dbContext.SaveChangesAsync();
         return entity.UserId;
@@ -79,5 +83,12 @@ internal class UsersRepository(WebShopDbContext dbContext) : IUsersRepository
             return true;
         }
         return false;
+    }
+
+    public async Task<User?> GetByEmail(string email)
+    {
+        var user = await dbContext.Users.Include(x => x.Orders)
+            .FirstOrDefaultAsync(x => x.Email == email);
+        return user;
     }
 }

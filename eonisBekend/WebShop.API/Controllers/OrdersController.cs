@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebShop.Application.Orders.Commands;
 using WebShop.Application.Orders.Commands.DeleteCommands;
@@ -16,6 +17,7 @@ namespace WebShop.API.Controllers;
 
 [ApiController]
 [Route("api/orders")]
+[Authorize]
 public class OrdersController(IMediator mediator) : ControllerBase
 {
 

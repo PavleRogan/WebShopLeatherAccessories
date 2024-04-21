@@ -294,3 +294,4 @@ C:\Users\Rogan-LT\Desktop\Backend-EONIS\EONIS24_IT_05_2020_WebShopLeatherAccesso
 C:\Users\Rogan-LT\Desktop\Backend-EONIS\EONIS24_IT_05_2020_WebShopLeatherAccessories\eonisBekend\WebShop.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Rogan-LT\Desktop\Backend-EONIS\EONIS24_IT_05_2020_WebShopLeatherAccessories\eonisBekend\WebShop.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Rogan-LT\Desktop\Backend-EONIS\EONIS24_IT_05_2020_WebShopLeatherAccessories\eonisBekend\WebShop.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Rogan-LT\Desktop\Backend-EONIS\EONIS24_IT_05_2020_WebShopLeatherAccessories\eonisBekend\WebShop.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

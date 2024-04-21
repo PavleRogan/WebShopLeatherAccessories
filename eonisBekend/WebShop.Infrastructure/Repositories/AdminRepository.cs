@@ -33,6 +33,9 @@ namespace WebShop.Infrastructure.Repositories
 
         public async Task<Guid> Create(Admin entity)
         {
+            var (hashedPassword, salt) = HashPassword(entity.Password);
+            entity.Password = hashedPassword;
+            entity.Salt = salt;
             dbContext.Admins.Add(entity);
             await dbContext.SaveChangesAsync();
             return entity.AdminId;

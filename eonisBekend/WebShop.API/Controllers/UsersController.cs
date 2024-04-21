@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebShop.Application.Orders.Dtos;
 using WebShop.Application.Users;
@@ -7,6 +8,7 @@ using WebShop.Application.Users.Commands.DeleteCommands;
 using WebShop.Application.Users.Commands.UpdateCommands;
 using WebShop.Application.Users.Dtos;
 using WebShop.Application.Users.Queries.GetAllUsers;
+using WebShop.Application.Users.Queries.GetByEmail;
 using WebShop.Application.Users.Queries.GetUserById;
 using WebShop.Domain.Entities;
 
@@ -14,6 +16,7 @@ namespace WebShop.API.Controllers;
 
 [ApiController]
 [Route("api/users")]
+[Authorize(Roles = "Admin")]
 public class UsersController(IMediator mediator) : ControllerBase
 {
     [HttpGet]
@@ -33,6 +36,14 @@ public class UsersController(IMediator mediator) : ControllerBase
     {
         var user = await mediator.Send(new GetUserByIdQuery(userId));
         
+        return Ok(user);
+    }
+
+    [HttpGet("email/{email}")]
+    public async Task<ActionResult<UserDto>> GetByEmail(string email)
+    {
+        var user = await mediator.Send(new GetUserByEmailQuery(email));
+
         return Ok(user);
     }
 

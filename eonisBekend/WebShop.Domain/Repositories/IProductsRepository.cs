@@ -12,6 +12,9 @@ public interface IProductsRepository
     Task<IEnumerable<Product>> GetAllAsync();
     Task<Product?> GetById(Guid productId);
 
+    Task<IEnumerable<Product>> GetByGender(string gender);
+
+    Task<IEnumerable<Product>> GetByCategory(string category);
     Task<Guid> Create(Product entity);
 
     Task Delete(Product entity);

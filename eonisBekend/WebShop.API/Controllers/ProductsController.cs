@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebShop.Application.Orders.Dtos;
 using WebShop.Application.Products;
@@ -6,6 +7,8 @@ using WebShop.Application.Products.Commands.CreateCommands;
 using WebShop.Application.Products.Commands.DeleteCommands;
 using WebShop.Application.Products.Commands.UpdateCommands;
 using WebShop.Application.Products.Queries.GetAll;
+using WebShop.Application.Products.Queries.GetByCategory;
+using WebShop.Application.Products.Queries.GetByGender;
 using WebShop.Application.Products.Queries.GetById;
 using WebShop.Application.Users.Commands.CreateCommands;
 using WebShop.Application.Users.Commands.DeleteCommands;
@@ -21,6 +24,7 @@ public class ProductsController(IMediator mediator) : ControllerBase
 {
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
+    [Authorize]
     public async Task<ActionResult<IEnumerable<ProductDto>>> GetAll()
     {
         var p = await mediator.Send(new GetAllProductsQuery());
@@ -40,6 +44,7 @@ public class ProductsController(IMediator mediator) : ControllerBase
     }
 
     [HttpPost]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> CreateProduct(CreateProductCommand command)
     {
 
@@ -50,6 +55,7 @@ public class ProductsController(IMediator mediator) : ControllerBase
     [HttpDelete("{productId}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> Delete(Guid productId)
     {
         await mediator.Send(new DeleteProductCommand(productId));
@@ -60,6 +66,7 @@ public class ProductsController(IMediator mediator) : ControllerBase
     [HttpPatch("{productId}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> Update(Guid productId, UpdateProductCommand command)
     {
         command.ProductId = productId;
@@ -67,4 +74,33 @@ public class ProductsController(IMediator mediator) : ControllerBase
         return NoContent();
 
     }
+
+    [HttpGet("gender/{gender}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [Authorize]
+    public async Task<ActionResult<IEnumerable<ProductDto>>> GetByGender(string gender)
+    {
+        var products = await mediator.Send(new GetProductsByGenderQuery(gender));
+        if (products == null || !products.Any())
+        {
+            return NotFound();
+        }
+        return Ok(products);
+    }
+
+    [HttpGet("category/{category}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [Authorize]
+    public async Task<ActionResult<IEnumerable<ProductDto>>> GetByCategory(string category)
+    {
+        var products = await mediator.Send(new GetProductsByCategoryQuery(category));
+        if (products == null || !products.Any())
+        {
+            return NotFound();
+        }
+        return Ok(products);
+    }
 }
+

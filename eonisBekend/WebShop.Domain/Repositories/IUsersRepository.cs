@@ -9,6 +9,8 @@ public interface IUsersRepository
     Task<IEnumerable<User>> GetAllAsync();
     Task<User?> GetById(Guid userId);
 
+    Task<User?> GetByEmail(string email);
+
     Task<Guid> Create(User entity);
 
     Task Delete(User entity);

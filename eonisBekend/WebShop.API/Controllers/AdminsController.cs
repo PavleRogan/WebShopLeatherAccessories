@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebShop.Application.Admins.Commands.CreateCommands;
 using WebShop.Application.Admins.Commands.DeleteCommands;
@@ -12,6 +13,7 @@ namespace WebShop.API.Controllers;
 
 [ApiController]
 [Route("api/admins")]
+[Authorize(Roles = "Admin")]
 public class AdminsController(IMediator mediator) : ControllerBase
 {
     [HttpGet]

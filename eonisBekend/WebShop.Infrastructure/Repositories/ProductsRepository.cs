@@ -40,5 +40,21 @@ namespace WebShop.Infrastructure.Repositories
         }
 
         public Task SaveChanges() => dbContext.SaveChangesAsync();
+
+        public async Task<IEnumerable<Product>> GetByGender(string gender)
+        {
+            var products = await dbContext.Products
+            .Where(u => u.Gender == gender)
+            .ToListAsync();
+
+            return products;
+        }
+
+        public async Task<IEnumerable<Product>> GetByCategory(string category)
+        {
+            var products = await dbContext.Products
+                .Where(u => u.Category == category).ToListAsync();
+            return products;
+        }
     }
 }
