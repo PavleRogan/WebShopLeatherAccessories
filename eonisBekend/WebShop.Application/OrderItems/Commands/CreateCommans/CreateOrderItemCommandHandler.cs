@@ -40,7 +40,18 @@ public class CreateOrderItemCommandHandler(
             Product = await productsRepository.GetById(request.ProductId)
 
         };
-        Guid id = await orderItemRepository.Create(oi);
-        return id;
+
+        if(oi.Quantity > oi.Product.StockQuantity)
+        {
+            throw new NotFoundException(nameof(Order), request.OrderId.ToString());
+        }
+        else
+        {
+            oi.Product.StockQuantity = oi.Product.StockQuantity - oi.Quantity;
+            await productsRepository.SaveChanges();
+            Guid id = await orderItemRepository.Create(oi);
+            return id;
+        }
+        
     }
 }

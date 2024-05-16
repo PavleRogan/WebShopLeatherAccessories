@@ -93,11 +93,11 @@ namespace WebShop.Infrastructure.Seeders
             var maleWallet = new Product
             {
                 ProductId = productId1,
-                Name = "Men's Leather Wallet",
+                Name = "Men's Classic Leather Wallet",
                 Description = "Classic men's leather wallet with multiple card slots and a bill compartment.",
                 Category = "Wallets",
                 Gender = "Male",
-                Price = 49.99m,
+                Price = 4200,
                 StockQuantity = 100 
             };
 

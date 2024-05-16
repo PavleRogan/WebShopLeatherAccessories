@@ -43,7 +43,7 @@ public class AdminsController(IMediator mediator) : ControllerBase
         return CreatedAtAction(nameof(GetById),new {adminId}, null);
     }
 
-    [HttpDelete("adminId")]
+    [HttpDelete("{adminId}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> Delete(Guid adminId)

@@ -14,13 +14,12 @@ namespace WebShop.Domain.Entities
         public string Category { get; set; } = default!;
 
         public string Gender { get; set; } = default!;
-
         public decimal Price { get; set; }
         public int? StockQuantity { get; set; }
 
         public List<OrderItem>? OrderItems { get; set; }
 
-        //image??
+        
 
     }
 }
