@@ -18,11 +18,12 @@ namespace WebShop.API.Controllers;
 
 [ApiController]
 [Route("api/users")]
-[Authorize(Roles = "Admin")]
 public class UsersController(IMediator mediator) : ControllerBase
 {
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
+    [Authorize(Roles = "Admin")]
+
     public async Task<ActionResult<IEnumerable<OrderDto>>> GetAll()
     {
         var users = await mediator.Send(new GetAllUsersQuery());
@@ -34,6 +35,8 @@ public class UsersController(IMediator mediator) : ControllerBase
     }
 
     [HttpGet("{userId}")]
+    [Authorize]
+
     public async Task<ActionResult<OrderDto>> GetById(Guid userId)
     {
         var user = await mediator.Send(new GetUserByIdQuery(userId));
@@ -42,6 +45,7 @@ public class UsersController(IMediator mediator) : ControllerBase
     }
 
     [HttpGet("email/{email}")]
+    [Authorize]
     public async Task<ActionResult<UserDto>> GetByEmail(string email)
     {
         var user = await mediator.Send(new GetUserByEmailQuery(email));
@@ -60,6 +64,7 @@ public class UsersController(IMediator mediator) : ControllerBase
     [HttpDelete("{userId}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> DeleteUser(Guid userId)
     {
          await mediator.Send(new DeleteUserCommand(userId));

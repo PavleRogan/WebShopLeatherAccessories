@@ -32,6 +32,25 @@ namespace WebShop.Infrastructure.Repositories
             return products;
         }
 
+        public async Task<(IEnumerable<Product>, int)> GetAllMatchingAsync(string? searchPhrase, int pageSize, int PageNumber)
+        {
+            var searchPhraseLow = searchPhrase?.ToLower();
+
+            var baseQuery = dbContext.Products.Where(
+                p => searchPhrase == null || (p.Name.ToLower().Contains(searchPhrase))
+                );
+
+            var totalCount = await baseQuery.CountAsync();
+
+            var products = await baseQuery
+                .Skip(pageSize * (PageNumber - 1))
+                .Take(pageSize)
+                .ToListAsync();
+
+            return (products, totalCount);
+        }
+
+
         public async Task<Product?> GetById(Guid productId)
         {
             var product = await dbContext.Products 
@@ -56,5 +75,7 @@ namespace WebShop.Infrastructure.Repositories
                 .Where(u => u.Category == category).ToListAsync();
             return products;
         }
+
+       
     }
 }

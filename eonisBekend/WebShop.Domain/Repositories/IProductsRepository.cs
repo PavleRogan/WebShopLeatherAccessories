@@ -16,8 +16,11 @@ public interface IProductsRepository
 
     Task<IEnumerable<Product>> GetByCategory(string category);
     Task<Guid> Create(Product entity);
-
+    
     Task Delete(Product entity);
+
+    Task<(IEnumerable<Product>, int)> GetAllMatchingAsync(string? searchPhrase, int pageSize, int pageNumber);
+
 
     Task SaveChanges();
 }

@@ -24,14 +24,9 @@ public class ProductsController(IMediator mediator) : ControllerBase
 {
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    [Authorize]
-    public async Task<ActionResult<IEnumerable<ProductDto>>> GetAll()
+    public async Task<ActionResult<IEnumerable<ProductDto>>> GetAll([FromQuery] GetAllProductsQuery query)
     {
-        var p = await mediator.Send(new GetAllProductsQuery());
-        if (p == null || !p.Any())
-        {
-            return NoContent();
-        }
+        var p = await mediator.Send(query);
         return Ok(p);
     }
 

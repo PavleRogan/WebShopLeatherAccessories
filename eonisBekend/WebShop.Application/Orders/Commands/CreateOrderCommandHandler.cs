@@ -49,6 +49,21 @@ public class CreateOrderCommandHandler(ILogger<CreateOrderCommandHandler> logger
 
             await orderItemRepository.Create(orderItem);
 
+            var prod = await productsRepository.GetById(product.ProductId);
+            if(prod is not null)
+            {
+                if (prod.StockQuantity >= product.Quantity)
+                {
+
+                    prod.StockQuantity = prod.StockQuantity - product.Quantity;
+                }
+                else
+                {
+                    throw new NotFoundException(nameof(Product), prod.ToString());
+                }
+            }
+            await productsRepository.SaveChanges();
+
         }
 
            // await ordersRepository.Create(order);

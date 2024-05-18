@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using MediatR;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using WebShop.API.Helpers;
+using WebShop.Application.Users.Commands.CreateCommands;
 using WebShop.Domain.Entities;
 
 namespace WebShop.API.Controllers
@@ -25,5 +27,6 @@ namespace WebShop.API.Controllers
             }
             return Unauthorized();
         }
+
     }
 }
