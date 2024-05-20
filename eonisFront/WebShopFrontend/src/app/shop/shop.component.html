@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="row">
+        <section class="col-3">
+
+            <h5 class="text-warning ml-3" style="font-size: 18px;">Sort</h5>
+            <select class="custom-select mb-3">
+                <option selected>Alphabetical</option>
+                <option>Price low to high</option>
+                <option>Price high to low</option>
+
+
+            </select>
+
+
+            <h5 class="text-warning ml-3 mt-2" style="font-size: 18px;">Category</h5>
+            <ul class="list-group my-3">
+              <li (click)="onCategoryAllSelected()" [class.active]="selectedCategory === undefined" class="list-group-item">All Categories</li>
+              <li (click)="onCategorySelected('wallets')" [class.active]="selectedCategory === 'wallets'" class="list-group-item">Wallets</li>
+              <li (click)="onCategorySelected('purses')" [class.active]="selectedCategory === 'purses'" class="list-group-item">Purses</li>
+              <li (click)="onCategorySelected('accessories')" [class.active]="selectedCategory === 'accessories'" class="list-group-item">Accessories</li>
+              <li (click)="onCategorySelected('belts')" [class.active]="selectedCategory === 'belts'" class="list-group-item">Belts</li>
+            </ul>
+            <h5 class="text-warning ml-3 mt-3" style="font-size: 18px;">Gender</h5>
+            <ul class="list-group my-3">
+              <li (click)="onGenderAllSelected()" [class.active]="selectedGender === undefined" class="list-group-item">All</li>
+              <li (click)="onGenderSelected('male')" [class.active]="selectedGender === 'male'" class="list-group-item">Male</li>
+              <li (click)="onGenderSelected('female')" [class.active]="selectedGender === 'female'" class="list-group-item">Female</li>
+            </ul>
+
+        </section>
+        <section class="col-9">
+            <div class="d-flex justify-content-between align-items-center">
+                <header>
+                    <span>Showing <strong>10</strong> of <strong>13</strong> results</span>
+                </header>
+                <div class="form-inline mt-3">
+                   <input type="text" style="width: 300px;" class="form-control mr-2" placeholder="Search">
+                   <button class="btn btn-outline-primary my-2">Search</button>
+                   <button class="btn btn-outline-secondary ml-2 my-2 ">Reset</button>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-4 mb-4" *ngFor="let p of products">
+                    <app-product-item [product]="p"></app-product-item>
+                </div>
+              </div>
+        </section>
+    </div>
+</div>

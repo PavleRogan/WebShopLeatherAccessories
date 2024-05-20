@@ -17,6 +17,7 @@ public class OrderDto
 
     public bool Processed { get; set; }
 
+    public Guid UserId { get; set; }
 
     public List<OrderItemDto?>? OrderItems { get; set; }
 }

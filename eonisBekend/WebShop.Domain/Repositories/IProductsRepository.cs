@@ -19,7 +19,7 @@ public interface IProductsRepository
     
     Task Delete(Product entity);
 
-    Task<(IEnumerable<Product>, int)> GetAllMatchingAsync(string? searchPhrase, int pageSize, int pageNumber);
+    Task<(IEnumerable<Product>, int)> GetAllMatchingAsync(string? searchPhrase, int pageSize, int pageNumber, string? category, string? gender);
 
 
     Task SaveChanges();

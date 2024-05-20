@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { IProduct } from './models/product';
+import { IProduct } from './shared/models/product';
+import { IPagination } from './shared/models/pagination';
 
 
 @Component({
@@ -12,8 +13,9 @@ export class AppComponent implements OnInit {
   title = 'WebShopFrontend';
   products : IProduct[] | undefined;
 
-  constructor(private http: HttpClient){}
+  constructor(){}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+  }
 
 }

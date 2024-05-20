@@ -98,7 +98,8 @@ namespace WebShop.Infrastructure.Seeders
                 Category = "Wallets",
                 Gender = "Male",
                 Price = 4200,
-                StockQuantity = 100 
+                StockQuantity = 100,
+                ImageUrl = "https://images.ctfassets.net/30h767egv35o/7hE16yy6KAHOr110VfxE75/8551932e6cc6ca0fbe46a96cea64cdcb/IMG-1575.jpg"
             };
 
             var femaleWallet = new Product
@@ -109,7 +110,8 @@ namespace WebShop.Infrastructure.Seeders
                 Category = "Wallets",
                 Gender = "Female",
                 Price = 59.99m,
-                StockQuantity = 80 
+                StockQuantity = 80,
+                ImageUrl = "https://images.ctfassets.net/30h767egv35o/4u6c59jHjf9xz582fu6WHk/c17cd696f0189628293b961ee341b8d0/2.jpg"
             };
 
             return new List<Product> { maleWallet, femaleWallet };

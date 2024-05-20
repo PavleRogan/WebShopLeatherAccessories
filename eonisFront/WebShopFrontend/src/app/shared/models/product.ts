@@ -6,5 +6,6 @@ export interface IProduct {
     gender: string
     price: number
     stockQuantity: number
+    imageUrl: string
   }
   

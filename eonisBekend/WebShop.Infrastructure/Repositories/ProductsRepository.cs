@@ -32,18 +32,22 @@ namespace WebShop.Infrastructure.Repositories
             return products;
         }
 
-        public async Task<(IEnumerable<Product>, int)> GetAllMatchingAsync(string? searchPhrase, int pageSize, int PageNumber)
+        public async Task<(IEnumerable<Product>, int)> GetAllMatchingAsync(string? searchPhrase, int pageSize, int pageNumber, string? category = null, string? gender = null)
         {
             var searchPhraseLow = searchPhrase?.ToLower();
+            var categoryLow = category?.ToLower();
+            var genderLow = gender?.ToLower();
 
             var baseQuery = dbContext.Products.Where(
-                p => searchPhrase == null || (p.Name.ToLower().Contains(searchPhrase))
-                );
+                p => (searchPhrase == null || p.Name.ToLower().Contains(searchPhraseLow)) &&
+                     (category == null || p.Category.ToLower() == categoryLow) &&
+                     (gender == null || p.Gender.ToLower() == genderLow)
+            );
 
             var totalCount = await baseQuery.CountAsync();
 
             var products = await baseQuery
-                .Skip(pageSize * (PageNumber - 1))
+                .Skip(pageSize * (pageNumber - 1))
                 .Take(pageSize)
                 .ToListAsync();
 

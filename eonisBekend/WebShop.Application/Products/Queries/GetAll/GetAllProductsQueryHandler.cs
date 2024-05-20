@@ -20,7 +20,7 @@ public class GetAllProductsQueryHandler(ILogger<GetAllProductsQueryHandler> logg
     {
         logger.LogInformation("Getting all products");
         var (products,totalCount) = await productsRepository.GetAllMatchingAsync(request.SearchPhrase, request.PageSize,
-            request.PageNumber);
+            request.PageNumber, request.Category, request.Gender);
 
         var productsDtos = mapper.Map<IEnumerable<ProductDto>>(products);
         var result = new PagedResult<ProductDto>(productsDtos,totalCount, request.PageSize, request.PageNumber);
