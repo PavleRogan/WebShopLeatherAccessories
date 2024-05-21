@@ -19,8 +19,8 @@ public class GetAllProductsQueryHandler(ILogger<GetAllProductsQueryHandler> logg
     public async Task<PagedResult<ProductDto>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
     {
         logger.LogInformation("Getting all products");
-        var (products,totalCount) = await productsRepository.GetAllMatchingAsync(request.SearchPhrase, request.PageSize,
-            request.PageNumber, request.Category, request.Gender);
+        var (products,totalCount) = await productsRepository.GetAllMatchingAsync(request.PageSize,
+            request.PageNumber, request.SearchPhrase, request.Category, request.Gender, request.SortBy, request.SortDirection);
 
         var productsDtos = mapper.Map<IEnumerable<ProductDto>>(products);
         var result = new PagedResult<ProductDto>(productsDtos,totalCount, request.PageSize, request.PageNumber);

@@ -1,0 +1,8 @@
+<header>
+    <ng-container *ngIf="totalCount >= pageSize * pageNumber">
+        <span>Showing <strong>{{(pageNumber-1)*(pageSize+1)}}-{{ pageSize * pageNumber }}</strong> of <strong>{{ totalCount }}</strong> results</span>
+    </ng-container>
+    <ng-container *ngIf="totalCount < pageSize * pageNumber">
+        <span><strong>{{(pageNumber-1)*(pageSize+1)}}-{{ totalCount }}</strong> out of <strong>{{ totalCount }}</strong> results</span>
+    </ng-container>
+</header>

@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { IProduct } from '../shared/models/product';
 import { ShopService } from './shop.service';
+import { ShopParams } from '../shared/models/shopParams';
 
 @Component({
   selector: 'app-shop',
@@ -9,13 +10,10 @@ import { ShopService } from './shop.service';
 })
 export class ShopComponent implements OnInit{
 
-  pageSize: number = 5;
-  pageNumber: number = 1;
+  @ViewChild('search',{static: false}) searchTerm! : ElementRef;
   products!: IProduct[] | undefined;
-  selectedGender: string | undefined;
-  selectedCategory: string | undefined;
-  searchPhrase: string | undefined = undefined;
-
+  shopParams = new ShopParams();
+  totalCount! : number;
   constructor(private shopService: ShopService){}
 
   ngOnInit(): void {
@@ -23,10 +21,13 @@ export class ShopComponent implements OnInit{
   }
 
   getProducts(){
-    this.shopService.getProducts(this.pageSize, this.pageNumber,this.searchPhrase,this.selectedGender,this.selectedCategory).subscribe(
+    this.shopService.getProducts(this.shopParams).subscribe(
       response => {
         this.products = response?.items;
-        console.log(this.products);
+        this.shopParams.pageNumber = response?.pageNumber ?? this.shopParams.pageNumber;
+        this.shopParams.pageSize = response?.pageSize ?? this.shopParams.pageSize;
+        this.totalCount = response?.totalItemsCount ?? 0;
+        
       }, (error) => {
             console.log(error);
           }
@@ -35,19 +36,49 @@ export class ShopComponent implements OnInit{
 
 
   onGenderSelected(gender:string){
-    this.selectedGender = gender;
+    this.shopParams.gender = gender;
     this.getProducts();
   }
   onCategorySelected(category:string){
-    this.selectedCategory = category;
+    this.shopParams.category = category;
     this.getProducts();
   }
   onGenderAllSelected(){
-    this.selectedGender = undefined;
+    this.shopParams.gender = undefined;
     this.getProducts();
   }
   onCategoryAllSelected(){
-    this.selectedCategory = undefined;
+    this.shopParams.category = undefined;
+    this.getProducts();
+  }
+  onSortSelected(event:Event){
+    const target = event.target as HTMLSelectElement;
+    const value = target.value.split(" ");
+    var sortBy = value[0];
+    var  sortDirection =value[1];
+    this.shopParams.sortBy= sortBy;
+    this.shopParams.sortDirection = sortDirection;
+    this.getProducts();
+  }
+
+  
+  onPageChanged(event: any) {
+    if(this.shopParams.pageNumber !== event){
+      this.shopParams.pageNumber = event ;
+          this.getProducts();
+    }
+    
+  }
+
+  onSearch(){
+    this.shopParams.searchPhrase = this.searchTerm.nativeElement.value;
+    this.getProducts();
+  }
+
+  onReset(){
+    this.shopParams.searchPhrase = undefined;
+    this.searchTerm.nativeElement.value = '';
+    this.shopParams = new ShopParams();
     this.getProducts();
   }
 }

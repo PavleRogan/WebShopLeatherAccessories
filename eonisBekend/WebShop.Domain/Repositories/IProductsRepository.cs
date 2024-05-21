@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebShop.Domain.Constants;
 using WebShop.Domain.Entities;
 
 namespace WebShop.Domain.Repositories;
@@ -19,7 +21,7 @@ public interface IProductsRepository
     
     Task Delete(Product entity);
 
-    Task<(IEnumerable<Product>, int)> GetAllMatchingAsync(string? searchPhrase, int pageSize, int pageNumber, string? category, string? gender);
+    Task<(IEnumerable<Product>, int)> GetAllMatchingAsync(int pageSize, int pageNumber, string? searchPhrase, string? category, string? gender, string? sortBy, SortDirection sortDirection);
 
 
     Task SaveChanges();

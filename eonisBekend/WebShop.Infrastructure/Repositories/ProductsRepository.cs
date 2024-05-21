@@ -2,8 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using WebShop.Domain.Constants;
 using WebShop.Domain.Entities;
 using WebShop.Domain.Repositories;
 using WebShop.Infrastructure.Persistence;
@@ -32,7 +34,8 @@ namespace WebShop.Infrastructure.Repositories
             return products;
         }
 
-        public async Task<(IEnumerable<Product>, int)> GetAllMatchingAsync(string? searchPhrase, int pageSize, int pageNumber, string? category = null, string? gender = null)
+        public async Task<(IEnumerable<Product>, int)> GetAllMatchingAsync(int pageSize, int pageNumber, string? searchPhrase, string? category,
+            string? gender, string? sortBy, SortDirection sortDirection)
         {
             var searchPhraseLow = searchPhrase?.ToLower();
             var categoryLow = category?.ToLower();
@@ -45,6 +48,22 @@ namespace WebShop.Infrastructure.Repositories
             );
 
             var totalCount = await baseQuery.CountAsync();
+
+            if (sortBy != null)
+            {
+                var columnsSelector = new Dictionary<string, Expression<Func<Product, object>>>
+                {
+                    {nameof(Product.Name), x => x.Name},
+                    {nameof(Product.Price), x => x.Price}
+                };
+
+                var selectedColumn = columnsSelector[sortBy];
+
+               baseQuery = sortDirection == SortDirection.Ascending ?
+                    baseQuery.OrderBy(selectedColumn)
+                    : baseQuery.OrderByDescending(selectedColumn);
+
+            }
 
             var products = await baseQuery
                 .Skip(pageSize * (pageNumber - 1))

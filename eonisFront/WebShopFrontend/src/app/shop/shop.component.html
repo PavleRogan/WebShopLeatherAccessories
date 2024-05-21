@@ -3,10 +3,11 @@
         <section class="col-3">
 
             <h5 class="text-warning ml-3" style="font-size: 18px;">Sort</h5>
-            <select class="custom-select mb-3">
-                <option selected>Alphabetical</option>
-                <option>Price low to high</option>
-                <option>Price high to low</option>
+            <select class="custom-select mb-3" (change)="onSortSelected($event)">
+                <option selected>Name Ascending</option>
+                <option >Name Descending</option>
+                <option>Price Ascending</option>
+                <option>Price Descending</option>
 
 
             </select>
@@ -14,29 +15,31 @@
 
             <h5 class="text-warning ml-3 mt-2" style="font-size: 18px;">Category</h5>
             <ul class="list-group my-3">
-              <li (click)="onCategoryAllSelected()" [class.active]="selectedCategory === undefined" class="list-group-item">All Categories</li>
-              <li (click)="onCategorySelected('wallets')" [class.active]="selectedCategory === 'wallets'" class="list-group-item">Wallets</li>
-              <li (click)="onCategorySelected('purses')" [class.active]="selectedCategory === 'purses'" class="list-group-item">Purses</li>
-              <li (click)="onCategorySelected('accessories')" [class.active]="selectedCategory === 'accessories'" class="list-group-item">Accessories</li>
-              <li (click)="onCategorySelected('belts')" [class.active]="selectedCategory === 'belts'" class="list-group-item">Belts</li>
+              <li (click)="onCategoryAllSelected()" [class.active]="shopParams.category === undefined" class="list-group-item">All Categories</li>
+              <li (click)="onCategorySelected('wallets')" [class.active]="shopParams.category === 'wallets'" class="list-group-item">Wallets</li>
+              <li (click)="onCategorySelected('purses')" [class.active]="shopParams.category === 'purses'" class="list-group-item">Purses</li>
+              <li (click)="onCategorySelected('accessories')" [class.active]="shopParams.category === 'accessories'" class="list-group-item">Accessories</li>
+              <li (click)="onCategorySelected('belts')" [class.active]="shopParams.category === 'belts'" class="list-group-item">Belts</li>
             </ul>
             <h5 class="text-warning ml-3 mt-3" style="font-size: 18px;">Gender</h5>
             <ul class="list-group my-3">
-              <li (click)="onGenderAllSelected()" [class.active]="selectedGender === undefined" class="list-group-item">All</li>
-              <li (click)="onGenderSelected('male')" [class.active]="selectedGender === 'male'" class="list-group-item">Male</li>
-              <li (click)="onGenderSelected('female')" [class.active]="selectedGender === 'female'" class="list-group-item">Female</li>
+              <li (click)="onGenderAllSelected()" [class.active]="shopParams.gender === undefined" class="list-group-item">All</li>
+              <li (click)="onGenderSelected('male')" [class.active]="shopParams.gender === 'male'" class="list-group-item">Male</li>
+              <li (click)="onGenderSelected('female')" [class.active]="shopParams.gender === 'female'" class="list-group-item">Female</li>
             </ul>
 
         </section>
         <section class="col-9">
             <div class="d-flex justify-content-between align-items-center">
-                <header>
-                    <span>Showing <strong>10</strong> of <strong>13</strong> results</span>
-                </header>
+                <app-paging-header [pageNumber]="this.shopParams.pageNumber" 
+                [pageSize]="this.shopParams.pageSize" [totalCount]="this.totalCount" *ngIf="totalCount>0"></app-paging-header>
+                <div *ngIf="totalCount == 0">
+                    <span><strong>There are no products in this category!</strong></span>
+                </div>
                 <div class="form-inline mt-3">
-                   <input type="text" style="width: 300px;" class="form-control mr-2" placeholder="Search">
-                   <button class="btn btn-outline-primary my-2">Search</button>
-                   <button class="btn btn-outline-secondary ml-2 my-2 ">Reset</button>
+                   <input #search type="text" style="width: 300px;" class="form-control mr-2" placeholder="Search">
+                   <button (click)="onSearch()" class="btn btn-outline-primary my-2">Search</button>
+                   <button (click)="onReset()" class="btn btn-outline-secondary ml-2 my-2 ">Reset</button>
                 </div>
             </div>
             
@@ -45,6 +48,16 @@
                     <app-product-item [product]="p"></app-product-item>
                 </div>
               </div>
+
         </section>
+        <div class="d-flex justify-content-center">
+            <app-pager 
+            [pageSize]="shopParams.pageSize" 
+            [totalCount]="totalCount" 
+            (pageChanged)="onPageChanged($event)">
+        </app-pager>
+        </div>
+               
+
     </div>
 </div>

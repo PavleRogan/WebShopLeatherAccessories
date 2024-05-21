@@ -5,15 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebShop.Application.Common;
+using WebShop.Domain.Constants;
 
 namespace WebShop.Application.Products.Queries.GetAll;
 
 public class GetAllProductsQuery : IRequest<PagedResult<ProductDto>>
 {
     public string? SearchPhrase { get; set; }
-
     public string? Category { get; set; }
     public string? Gender { get; set; }
+
+    public string? SortBy { get; set; }
+    public SortDirection SortDirection { get; set; }
     public int PageSize { get; set; }
     public int PageNumber { get; set; }
 }
