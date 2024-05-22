@@ -4,21 +4,28 @@ import { ShopComponent } from './shop.component';
 import { ProductItemComponent } from './product-item/product-item.component';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { SharedModule } from '../shared/shared.module';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { RouterModule } from '@angular/router';
+import { ShopRoutingModule } from './shop-routing.module';
+import { CoreModule } from '../core/core.module';
 
 
 
 @NgModule({
   declarations: [
     ShopComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    ProductDetailsComponent
   ],
   imports: [
     CommonModule,
     SharedModule,
     PaginationModule,
+    ShopRoutingModule,
+    CoreModule
   ],
   exports : [
-    ShopComponent
+    
   ]
 })
 export class SHOPModule { }

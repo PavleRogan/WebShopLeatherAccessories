@@ -27,13 +27,13 @@ export class ShopComponent implements OnInit{
         this.shopParams.pageNumber = response?.pageNumber ?? this.shopParams.pageNumber;
         this.shopParams.pageSize = response?.pageSize ?? this.shopParams.pageSize;
         this.totalCount = response?.totalItemsCount ?? 0;
-        
       }, (error) => {
             console.log(error);
           }
       );
   }
 
+ 
 
   onGenderSelected(gender:string){
     this.shopParams.gender = gender;

@@ -6,6 +6,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { CoreModule } from './core/core.module';
 import { SHOPModule } from './shop/shop.module';
+import { HomeModule } from './home/home.module';
+import { RouterModule } from '@angular/router'; 
+
 
 
 
@@ -20,7 +23,8 @@ import { SHOPModule } from './shop/shop.module';
     HttpClientModule,
     CoreModule, 
     SHOPModule,
-  
+    HomeModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
