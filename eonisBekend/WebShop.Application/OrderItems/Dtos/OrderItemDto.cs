@@ -19,5 +19,8 @@ namespace WebShop.Application.OrderItems.Dtos
 
         public int Quantity { get; set; }
 
+        public string Name { get; set; }
+
+        public decimal Price { get; set; }
     }
 }

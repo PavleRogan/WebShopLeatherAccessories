@@ -73,8 +73,15 @@ namespace WebShop.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<Guid>("OrderId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<decimal?>("Price")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<Guid>("ProductId")
                         .HasColumnType("uniqueidentifier");

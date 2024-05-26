@@ -9,9 +9,9 @@ using WebShop.Domain.Entities;
 
 namespace WebShop.Application.Orders.Commands;
 
-public class CreateOrderCommand : IRequest
+public class CreateOrderCommand : IRequest<Guid>
 {
-
+    public Guid OrderID { get; set; }
     public Guid UserId { get; set; }
     public List<OrderItemDto> OrderItems { get; set; }
 

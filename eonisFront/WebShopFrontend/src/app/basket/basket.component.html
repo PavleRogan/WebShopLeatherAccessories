@@ -1,0 +1,21 @@
+<div class="cart-container">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+    </div>
+    <ul class="cart-items">
+      <li *ngFor="let item of orderItems" class="cart-item">
+        <div class="cart-item-name">{{ item.name }}</div>
+        <div class="cart-item-price">${{ item.price }}</div>
+        <div class="cart-item-quantity">
+          <input type="number" [(ngModel)]="item.quantity" (ngModelChange)="updateQuantity(item.productId!, item.quantity!)">
+        </div>
+        <div class="cart-item-remove">
+          <button (click)="removeItem(item.productId!)">Remove</button>
+        </div>
+      </li>
+    </ul>
+    <div class="cart-total">
+      Total: ${{ getTotal() }}
+    </div>
+  </div>
+  

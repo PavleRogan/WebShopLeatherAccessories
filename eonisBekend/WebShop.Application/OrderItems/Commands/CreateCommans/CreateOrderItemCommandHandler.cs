@@ -27,19 +27,19 @@ public class CreateOrderItemCommandHandler(
         {
             throw new NotFoundException(nameof(Order), request.OrderId.ToString());
         }
-
-        //isto za product
-
-        //var oi = mapper.Map<OrderItem>(request);
+        
+   
         var oi = new OrderItem
         {
             OrderId = request.OrderId,
-            Order = await ordersRepository.GetById(request.OrderId),
+            Order = order,
             ProductId = request.ProductId,
             Quantity = request.Quantity,
+            Price = request.Price,
+            Name = request.Name,
             Product = await productsRepository.GetById(request.ProductId)
-
-        };
+    };
+        
 
         if(oi.Quantity > oi.Product.StockQuantity)
         {

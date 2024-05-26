@@ -17,7 +17,7 @@ namespace WebShop.API.Controllers;
 
 [ApiController]
 [Route("api/orders")]
-[Authorize]
+//[Authorize]
 public class OrdersController(IMediator mediator) : ControllerBase
 {
 
@@ -36,8 +36,9 @@ public class OrdersController(IMediator mediator) : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CreateOrder([FromBody] CreateOrderCommand command)
     {
-        await mediator.Send(command);
-        return Created();
+         Guid orderId =  await mediator.Send(command);
+        return CreatedAtAction(nameof(GetOrderById), new { orderId }, null);
+
     }
 
     [HttpGet("{orderId}")]

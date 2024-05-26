@@ -19,7 +19,9 @@ public class OrdersProfile : Profile
             {
                 
                 ProductId = oi.ProductId,
-                Quantity = oi.Quantity
+                Quantity = oi.Quantity,
+                Name = oi.Name,
+                Price = oi.Price,
             }).ToList()));
 
         CreateMap<CreateOrderCommand, Order>();

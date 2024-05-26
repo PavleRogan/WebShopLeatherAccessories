@@ -13,4 +13,9 @@ public class CreateOrderItemCommand : IRequest<Guid>
     public Guid ProductId { get; set; }
     public Guid OrderId { get; set; }
     public int Quantity { get; set; }
+
+    public string Name { get; set; } = string.Empty;
+
+    public decimal Price { get; set; }
+
 }

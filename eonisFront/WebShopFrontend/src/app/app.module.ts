@@ -11,7 +11,6 @@ import { RouterModule } from '@angular/router';
 
 
 
-
 @NgModule({
   declarations: [
     AppComponent
@@ -24,7 +23,7 @@ import { RouterModule } from '@angular/router';
     CoreModule, 
     SHOPModule,
     HomeModule,
-    RouterModule
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

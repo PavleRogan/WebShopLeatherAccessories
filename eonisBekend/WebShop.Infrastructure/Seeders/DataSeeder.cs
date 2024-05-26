@@ -151,7 +151,8 @@ namespace WebShop.Infrastructure.Seeders
                                         OrderItemId = orderItemId1,
                                         ProductId = productId1,
                                         OrderId = orderId1,
-                                        Quantity = 2 // Example quantity
+                                        Quantity = 2, // Example quantity
+                                      
                                     }
                             }
                         }
@@ -185,7 +186,9 @@ namespace WebShop.Infrastructure.Seeders
                                         OrderItemId = orderItemId2,
                                         ProductId = productId2,
                                         OrderId = orderId2,
-                                        Quantity = 1 // Example quantity
+                                        Quantity = 1, // Example quantity
+                                       
+
                                     }
                             }
                         }

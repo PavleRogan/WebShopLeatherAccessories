@@ -16,9 +16,9 @@ public class CreateOrderCommandHandler(ILogger<CreateOrderCommandHandler> logger
     IMapper mapper, IUsersRepository usersRepository,
     IOrdersRepository ordersRepository,
     IProductsRepository productsRepository,
-    IOrderItemRepository orderItemRepository) : IRequestHandler<CreateOrderCommand>
+    IOrderItemRepository orderItemRepository) : IRequestHandler<CreateOrderCommand, Guid>
 {
-    public async Task Handle(CreateOrderCommand request, CancellationToken cancellationToken)
+    public async Task<Guid> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
     {
         logger.LogInformation("Creating new order {@OrderRequest}", request);
 
@@ -30,7 +30,7 @@ public class CreateOrderCommandHandler(ILogger<CreateOrderCommandHandler> logger
 
         var order = new Order
         { 
-            OrderId = Guid.NewGuid(),
+            OrderId = request.OrderID,
             OrderDate = DateTime.Now,
             UserId = request.UserId,
             Processed = false,
@@ -46,6 +46,9 @@ public class CreateOrderCommandHandler(ILogger<CreateOrderCommandHandler> logger
             orderItem.Product = await productsRepository.GetById(product.ProductId);
             orderItem.Order = order;
             orderItem.Quantity = product.Quantity;
+            orderItem.Price = product.Price;
+            orderItem.Name = product.Name;
+            
 
             await orderItemRepository.Create(orderItem);
 
@@ -65,7 +68,7 @@ public class CreateOrderCommandHandler(ILogger<CreateOrderCommandHandler> logger
             await productsRepository.SaveChanges();
 
         }
-
+        return order.OrderId;
            // await ordersRepository.Create(order);
 
     }

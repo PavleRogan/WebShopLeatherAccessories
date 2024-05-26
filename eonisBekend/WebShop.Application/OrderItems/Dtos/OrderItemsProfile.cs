@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebShop.Application.OrderItems.Commands.CreateCommans;
 using WebShop.Application.OrderItems.Commands.UpdateCommands;
+using WebShop.Application.Products;
 using WebShop.Domain.Entities;
 
 namespace WebShop.Application.OrderItems.Dtos
@@ -14,11 +15,12 @@ namespace WebShop.Application.OrderItems.Dtos
     {
         public OrderItemsProfile()
         {
-             CreateMap<OrderItemDto, OrderItem>();
-            CreateMap<OrderItem, OrderItemDto>();
-            CreateMap<UpdateOrderItemCommand, OrderItem>();
-              CreateMap<CreateOrderItemCommand, OrderItem>();
-           
+            CreateMap<OrderItem, OrderItemDto>()
+                .ReverseMap();
+            CreateMap<UpdateOrderItemCommand, OrderItem>().ReverseMap();
+              CreateMap<CreateOrderItemCommand, OrderItem>().ReverseMap();
+            CreateMap<Product, ProductDto>();
+
         }
 
     }
