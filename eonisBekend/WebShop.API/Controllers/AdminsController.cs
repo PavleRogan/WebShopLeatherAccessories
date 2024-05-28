@@ -6,7 +6,10 @@ using WebShop.Application.Admins.Commands.DeleteCommands;
 using WebShop.Application.Admins.Commands.UpdateCommands;
 using WebShop.Application.Admins.Dtos;
 using WebShop.Application.Admins.Queries.GetAll;
+using WebShop.Application.Admins.Queries.GetByEmail;
 using WebShop.Application.Admins.Queries.GetById;
+using WebShop.Application.Users.Dtos;
+using WebShop.Application.Users.Queries.GetByEmail;
 using WebShop.Domain.Entities;
 
 namespace WebShop.API.Controllers;
@@ -58,6 +61,15 @@ public class AdminsController(IMediator mediator) : ControllerBase
         command.AdminId = adminId;
         await mediator.Send(command);
         return NoContent();
+    }
+
+    [HttpGet("email/{email}")]
+    [Authorize]
+    public async Task<ActionResult<UserDto>> GetByEmail(string email)
+    {
+        var admin = await mediator.Send(new GetAdminByEmailQuery(email));
+
+        return Ok(admin);
     }
 
 }

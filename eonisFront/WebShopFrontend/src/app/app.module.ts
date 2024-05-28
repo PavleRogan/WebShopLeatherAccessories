@@ -8,6 +8,7 @@ import { CoreModule } from './core/core.module';
 import { SHOPModule } from './shop/shop.module';
 import { HomeModule } from './home/home.module';
 import { RouterModule } from '@angular/router'; 
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 
 
@@ -24,6 +25,7 @@ import { RouterModule } from '@angular/router';
     SHOPModule,
     HomeModule,
     RouterModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

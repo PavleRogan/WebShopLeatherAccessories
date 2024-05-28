@@ -23,10 +23,12 @@ namespace WebShop.API.Controllers
             if (authHelper.AuthenticateUser(authCred))
             {
                 var tokenString = authHelper.GenerateJwt(authCred);
-                return Ok(new { token = tokenString });
+                return Ok(new { token = tokenString, authCred.Email });
             }
             return Unauthorized();
         }
+
+
 
     }
 }

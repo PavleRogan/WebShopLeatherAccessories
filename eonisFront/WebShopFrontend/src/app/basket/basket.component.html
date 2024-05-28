@@ -1,21 +1,42 @@
 <div class="cart-container">
-    <div class="cart-header">
+  <div class="cart-header">
       <h2>Your Cart</h2>
-    </div>
-    <ul class="cart-items">
-      <li *ngFor="let item of orderItems" class="cart-item">
-        <div class="cart-item-name">{{ item.name }}</div>
-        <div class="cart-item-price">${{ item.price }}</div>
-        <div class="cart-item-quantity">
-          <input type="number" [(ngModel)]="item.quantity" (ngModelChange)="updateQuantity(item.productId!, item.quantity!)">
-        </div>
-        <div class="cart-item-remove">
-          <button (click)="removeItem(item.productId!)">Remove</button>
-        </div>
-      </li>
-    </ul>
-    <div class="cart-total">
-      Total: ${{ getTotal() }}
-    </div>
   </div>
+  <div class="cart-titles" *ngIf="orderItems && orderItems.length > 0">
+      <div class="cart-title">Name</div>
+      <div class="cart-title">Quantity</div>
+      <div class="cart-title">Price</div>
+  </div>
+  <ul class="cart-items" *ngIf="orderItems && orderItems.length > 0">
+      <li *ngFor="let item of orderItems" class="cart-item">
+          <div class="cart-item-name">{{ item.name }}</div>
+          <div class="cart-item-quantity">
+              <input type="number" [(ngModel)]="item.quantity" (ngModelChange)="updateQuantity(item.productId!, item.quantity!)"  min="1">
+          </div>
+          <div class="cart-item-price">${{ item.price }}</div>
+          <div>
+              <button class="remove-button" (click)="removeItem(item.productId!)">
+                  <i  class="fa fa-trash" 
+                  style="font-size: 2em; cursor: pointer;color: red;"></i>
+              </button>
+          </div>
+      </li>
+  </ul>
+  <div class="empty-cart-message" *ngIf="!orderItems || orderItems.length === 0">
+      Your cart is empty.
+  </div>
+  <div class="cart-total" *ngIf="orderItems && orderItems.length > 0">
+      Total: ${{ getTotal() }}
+  </div>
+  <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+
+  <div *ngIf="orderItems && orderItems.length > 0" class="d-flex justify-content-start align-items-center">
+                
+    <a 
+        class="btn btn-outline-primary ms-4"
+        style="width: 100px; height: 40px;"
+        (click)="validateCheckout()"
+    >CHECKOUT</a>
+</div>
   
+</div>

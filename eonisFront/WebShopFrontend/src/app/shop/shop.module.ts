@@ -10,7 +10,6 @@ import { ShopRoutingModule } from './shop-routing.module';
 import { CoreModule } from '../core/core.module';
 
 
-
 @NgModule({
   declarations: [
     ShopComponent,
@@ -22,7 +21,7 @@ import { CoreModule } from '../core/core.module';
     SharedModule,
     PaginationModule,
     ShopRoutingModule,
-    CoreModule
+    CoreModule,
   ],
   exports : [
     

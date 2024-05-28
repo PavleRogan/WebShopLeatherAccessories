@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Output, inject } from '@angular/core';
 import { BasketService } from './basket.service';
 import { IOrderItem } from '../shared/models/order';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-basket',
@@ -11,8 +12,9 @@ export class BasketComponent {
 
   orderItems : IOrderItem[] = [];
   basketService = inject(BasketService);
+  errorMessage: string = '';
 
-constructor(){
+constructor(private router: Router){
   this.orderItems= this.basketService.getItems();
    // Filter out duplicate items based on productId
    const uniqueItemsMap = new Map<string, IOrderItem>();
@@ -42,6 +44,22 @@ updateQuantity(productId: string, quantity: number) {
   const item = this.orderItems.find(item => item.productId === productId);
   if (item) {
     item.quantity = quantity;
+  }
+}
+
+validateCheckout() {
+  this.errorMessage = '';
+  for (const item of this.orderItems) {
+    if (item.quantity! < 1) {
+      this.errorMessage = 'Quantity cannot be less than 1.';
+      return;
+    }
+  }
+  // Proceed with checkout logic
+  // dodaj kreiranje porudzbine ovde bar lokalno
+  if(this.errorMessage ==''){
+
+    this.router.navigate(['/checkout']);
   }
 }
 }

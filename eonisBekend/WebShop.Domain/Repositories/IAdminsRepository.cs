@@ -18,5 +18,7 @@ public interface IAdminsRepository
 
     Task SaveChanges();
 
+    Task<Admin?> GetByEmail(string email);
+
     bool AdminWithCredentialsExists(string email, string password);
 }

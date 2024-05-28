@@ -45,4 +45,19 @@
     margin-top: 20px;
     font-weight: bold;
   }
-  
+  .cart-titles {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.cart-title {
+    flex-basis: 30%; /* Adjust the width as needed */
+    text-align: center;
+}
+.remove-button {
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  padding: 0; /* Remove padding */
+  cursor: pointer; /* Change cursor to pointer */
+}

@@ -53,6 +53,13 @@ namespace WebShop.Infrastructure.Repositories
             return admins;
         }
 
+        public async Task<Admin?> GetByEmail(string email)
+        {
+            var admin = await dbContext.Admins
+                .FirstOrDefaultAsync(x => x.Username == email);
+            return admin;
+        }
+
         public async Task<Admin?> GetById(Guid adminId)
         {
             var admin = await dbContext.Admins.FirstOrDefaultAsync(a => a.AdminId == adminId);
