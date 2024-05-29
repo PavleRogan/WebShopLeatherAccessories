@@ -17,7 +17,7 @@ public class UserDto
     public string? StreetAndNumber { get; set; }
     public string? PostalCode { get; set; }
 
-    //public string? ContactNumber { get; set; }
+    public string? ContactNumber { get; set; }
 
     public List<Orders.Dtos.OrderDto>? Orders { get; set; }
 

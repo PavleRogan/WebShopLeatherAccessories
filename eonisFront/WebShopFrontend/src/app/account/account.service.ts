@@ -1,7 +1,7 @@
 import { HttpClient, HttpHandler, HttpHeaders, HttpResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, Observable, catchError, map } from 'rxjs';
-import { IUser } from '../shared/models/user';
+import { BehaviorSubject, Observable, catchError, map, of, switchMap, throwError } from 'rxjs';
+import { IUpdateUserCommand, IUser } from '../shared/models/user';
 import { Router } from '@angular/router';
 import { stringify } from 'uuid';
 import { jwtDecode } from 'jwt-decode'; 
@@ -11,7 +11,6 @@ import { jwtDecode } from 'jwt-decode';
   providedIn: 'root'
 })
 export class AccountService {
-
   baseUrl = "https://localhost:7010/api/";
 
   private currentUserSource = new BehaviorSubject<IUser | null>(null);
@@ -82,9 +81,37 @@ export class AccountService {
       })
     );
   }
+  updateUser(currentUser: IUser | null): Observable<void | null> {
+    if (!currentUser || !currentUser.userId) {
+      throw new Error('Invalid user data');
+    }
 
+    const updateUserCommand: IUpdateUserCommand = {
+      userId: currentUser.userId,
+      name: currentUser.name || '',
+      contactNumber: currentUser.contactNumber,
+      city: currentUser.city,
+      streetAndNumber: currentUser.streetAndNumber,
+      postalCode: currentUser.postalCode
+    };
+
+    const token = localStorage.getItem('token');
+    if (!token) {
+      throw new Error('No token found');
+    }
+
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+
+    return this.http.patch<void>(`${this.baseUrl}users/${currentUser.userId}`, updateUserCommand, { headers }).pipe(
+      switchMap(() => this.loadCurrentUser(token, currentUser.email)), // Make a subsequent call to loadCurrentUser
+      catchError((error) => {
+        console.error('Error occurred while updating user:', error);
+        return of(null); // Return null in case of an error
+      })
+    );
+  }
   
- 
+
 
   logout() {
     localStorage.removeItem('token');
@@ -93,15 +120,14 @@ export class AccountService {
     this.router.navigateByUrl('/');
   }
 
-  register(values: any): Observable<boolean> {
-    return this.http.post<any>(this.baseUrl + 'users', values, { observe: 'response' }).pipe(
+  register(user: any): Observable<boolean> {
+    return this.http.post<any>(this.baseUrl + 'users', user, { observe: 'response' }).pipe(
       map((response: HttpResponse<any>) => {
         return response.status === 201;
       }),
       catchError((error) => {
-        // Handle error response here if needed
-        console.error('Error occurred:', error);
-        return [false];  // Return false in case of an error
+        console.error('Error occurred during registration:', error);
+        return throwError(error); // Throw error in case of an error
       })
     );
   }

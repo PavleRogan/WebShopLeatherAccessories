@@ -26,7 +26,13 @@ public class UsersProfile : Profile
                     StreetAndNumber = src.StreetAndNumber
                 }));
 
-        CreateMap<UpdateUserCommand, User>();
+        CreateMap<UpdateUserCommand, User>().ForMember(d => d.Address, opt => opt.MapFrom(
+                src => new Address
+                {
+                    City = src.City,
+                    PostalCode = src.PostalCode,
+                    StreetAndNumber = src.StreetAndNumber
+                })).ReverseMap();
     }
 }
   

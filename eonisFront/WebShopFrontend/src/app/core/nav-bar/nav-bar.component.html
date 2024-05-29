@@ -33,10 +33,15 @@
                             <i class="fa fa-shopping-cart me-3"></i> View basket
                         </a>
                     </li>
+            
                     <li class="py-1">
-                        <a routerLink="/account/profile" class="dropdown-item">
-                            <i class="fa fa-history me-3"></i> View profile
-                        </a>
+                        <ng-container *ngIf="(currentUser$ | async) as currentUser">
+                            <ng-container *ngIf="!isAdmin(currentUser)">
+                                <a routerLink="/account/profile" class="dropdown-item">
+                                    <i class="fa fa-history me-3"></i> View profile
+                                </a> 
+                            </ng-container>
+                        </ng-container>
                     </li>
                     <div class="dropdown-divider"></div>
                     <li class="py-1">

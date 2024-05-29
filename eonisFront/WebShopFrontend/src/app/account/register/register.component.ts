@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 import { AccountService } from '../account.service';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-register',
@@ -7,24 +11,46 @@ import { AccountService } from '../account.service';
   styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent {
+  registerForm!: FormGroup;
 
-  constructor(private accountService: AccountService){}
+  constructor(private fb: FormBuilder, private accountService: AccountService, private snackBar:MatSnackBar, private router:Router) { }
 
-  registerUser(userValues: any): void {
-    this.accountService.register(userValues).subscribe(
-      (result: boolean) => {
-        if (result) {
-          console.log('User created successfully');
-          // You can add more logic here to handle successful user creation
-        } else {
-          console.log('User creation failed');
-          // You can add more logic here to handle user creation failure
+  ngOnInit(): void {
+    this.registerForm = this.fb.group({
+      name: ['', Validators.required],
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', Validators.required],
+      city: [''],
+      streetAndNumber: [''],
+      postalCode: [''],
+      contactNumber: ['']
+    });
+  }
+
+  onSubmit(): void {
+    if (this.registerForm.valid) {
+      this.accountService.register(this.registerForm.value).subscribe(
+        response => {
+          if (response) {
+            console.log('Registration successful');
+            this.snackBar.open('Profile created. Welcome!', 'Close', {
+              duration: 3000,
+            });
+            this.router.navigateByUrl('/account/login');
+          } else {
+            console.error('Registration failed');
+           
+            this.snackBar.open('Invalid data. Please try again.', 'Close', {
+              duration: 3000,
+            });
+
+          }
+        },
+        error => {
+          console.error('Error occurred during registration:', error);
         }
-      },
-      (error: any) => {
-        console.error('An error occurred:', error);
-        // Handle any additional errors if necessary
-      }
-    );
+      );
+    }
   }
 }
+

@@ -6,6 +6,10 @@
         <input type="text" id="name" [(ngModel)]="currentUser!.name">
       </div>
       <div class="detail">
+        <label for="contact">Contact:</label>
+        <input type="text" id="contact" [(ngModel)]="currentUser!.contactNumber">
+      </div>
+      <div class="detail">
         <label for="email">Email:</label>
         <input type="email" id="email" [(ngModel)]="currentUser!.email" disabled>
       </div>
@@ -29,7 +33,7 @@
                 <p><strong>Order Date:</strong> {{ order.orderDate | date }}</p>
             </li>
         </ul>
-        <button class="edit-button" (click)="onEdit()">Edit</button>    </div>
+        <button class="edit-button" (click)="onEdit()">Save Changes</button>    </div>
     </div>
   </div>
   

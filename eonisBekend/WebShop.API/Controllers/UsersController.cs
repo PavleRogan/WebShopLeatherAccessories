@@ -75,6 +75,7 @@ public class UsersController(IMediator mediator) : ControllerBase
     [HttpPatch("{userId}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [Authorize]
     public async Task<IActionResult> UpdateUser(Guid userId, UpdateUserCommand command)
     {
         command.UserId = userId;

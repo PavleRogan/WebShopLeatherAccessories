@@ -58,7 +58,7 @@ validateCheckout() {
   // Proceed with checkout logic
   // dodaj kreiranje porudzbine ovde bar lokalno
   if(this.errorMessage ==''){
-
+    console.log(this.orderItems);
     this.router.navigate(['/checkout']);
   }
 }

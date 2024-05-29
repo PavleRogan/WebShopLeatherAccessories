@@ -21,7 +21,7 @@ namespace WebShop.Domain.Entities
 
         public List<Order>? Orders { get; set; }
 
-        //dodaj enkripciju loyinki
+        
 
 
 
