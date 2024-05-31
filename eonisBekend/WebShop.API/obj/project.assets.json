@@ -5408,11 +5408,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rogan-LT\\Desktop\\ceoproj\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\WebShop.API.csproj",
+      "projectUniqueName": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\WebShop.API.csproj",
       "projectName": "WebShop.API",
-      "projectPath": "C:\\Users\\Rogan-LT\\Desktop\\ceoproj\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\WebShop.API.csproj",
+      "projectPath": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\WebShop.API.csproj",
       "packagesPath": "C:\\Users\\Rogan-LT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rogan-LT\\Desktop\\ceoproj\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\obj\\",
+      "outputPath": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rogan-LT\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5429,11 +5429,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Rogan-LT\\Desktop\\ceoproj\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj": {
-              "projectPath": "C:\\Users\\Rogan-LT\\Desktop\\ceoproj\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj"
+            "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj": {
+              "projectPath": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj"
             },
-            "C:\\Users\\Rogan-LT\\Desktop\\ceoproj\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Rogan-LT\\Desktop\\ceoproj\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj"
+            "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj"
             }
           }
         }

@@ -1,32 +1,54 @@
 <div class="d-flex justify-content-center mt-5">
-    <div class="col-3">
-      <form class="form-register" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
-        <h1 class="h3 mb-4 font-weight-normal naslov" style="text-align: center;">Please Register</h1>
-        
+  <div class="col-3">
+    <form class="form-register" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <h1 class="h3 mb-4 font-weight-normal naslov" style="text-align: center;">Please Register</h1>
+      
+      <div [ngClass]="{'is-invalid': isFieldInvalid('name')}">
         <label for="inputName" class="sr-only">Name</label>
         <input formControlName="name" type="text" id="inputName" class="form-control" placeholder="Name" required autofocus>
-        
+        <div *ngIf="isFieldInvalid('name')" class="invalid-feedback">
+          Name is required.
+        </div>
+      </div>
+
+      <div [ngClass]="{'is-invalid': isFieldInvalid('email')}">
         <label for="inputEmail" class="sr-only">Email address</label>
         <input formControlName="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
-        
+        <div *ngIf="isFieldInvalid('email')" class="invalid-feedback">
+          Valid email is required.
+        </div>
+      </div>
+
+      <div [ngClass]="{'is-invalid': isFieldInvalid('password')}">
         <label for="inputPassword" class="sr-only">Password</label>
         <input formControlName="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        
+        <div *ngIf="isFieldInvalid('password')" class="invalid-feedback">
+          Password is required.
+        </div>
+      </div>
+
+      <div [ngClass]="{'is-invalid': isFieldInvalid('city')}">
         <label for="inputCity" class="sr-only">City</label>
         <input formControlName="city" type="text" id="inputCity" class="form-control" placeholder="City">
-        
+      </div>
+
+      <div [ngClass]="{'is-invalid': isFieldInvalid('streetAndNumber')}">
         <label for="inputStreetAndNumber" class="sr-only">Street and Number</label>
         <input formControlName="streetAndNumber" type="text" id="inputStreetAndNumber" class="form-control" placeholder="Street and Number">
-        
+      </div>
+
+      <div [ngClass]="{'is-invalid': isFieldInvalid('postalCode')}">
         <label for="inputPostalCode" class="sr-only">Postal Code</label>
         <input formControlName="postalCode" type="text" id="inputPostalCode" class="form-control" placeholder="Postal Code">
-        
+      </div>
+
+      <div [ngClass]="{'is-invalid': isFieldInvalid('contactNumber')}">
         <label for="inputContactNumber" class="sr-only">Contact Number</label>
         <input formControlName="contactNumber" type="text" id="inputContactNumber" class="form-control" placeholder="Contact Number">
-        
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
-        <p class="mt-5 mb-3 text-muted">© 2024</p>
-      </form>
-    </div>
+      </div>
+
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+      <p class="mt-5 mb-3 text-muted">© 2024</p>
+    </form>
   </div>
-  
+</div>

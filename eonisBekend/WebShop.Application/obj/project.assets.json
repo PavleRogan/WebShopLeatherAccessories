@@ -604,11 +604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rogan-LT\\Desktop\\ceoproj\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj",
       "projectName": "WebShop.Application",
-      "projectPath": "C:\\Users\\Rogan-LT\\Desktop\\ceoproj\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj",
+      "projectPath": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\WebShop.Application.csproj",
       "packagesPath": "C:\\Users\\Rogan-LT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rogan-LT\\Desktop\\ceoproj\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\obj\\",
+      "outputPath": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rogan-LT\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -625,8 +625,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Rogan-LT\\Desktop\\ceoproj\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\WebShop.Domain.csproj": {
-              "projectPath": "C:\\Users\\Rogan-LT\\Desktop\\ceoproj\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\WebShop.Domain.csproj"
+            "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\WebShop.Domain.csproj": {
+              "projectPath": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\WebShop.Domain.csproj"
             }
           }
         }

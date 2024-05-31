@@ -33,5 +33,9 @@ export class BasketService {
       price: item.price
     };
   }
+
+  clearBaket(){
+    this.orderItems = [];
+  }
   
 }

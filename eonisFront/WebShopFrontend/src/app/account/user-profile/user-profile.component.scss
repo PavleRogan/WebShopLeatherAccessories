@@ -10,6 +10,11 @@
   .user-details {
     margin-bottom: 20px;
   }
+
+  .invalid input {
+    border-color: red;
+  }
+  
   
   .user-details .detail {
     margin-bottom: 10px;
