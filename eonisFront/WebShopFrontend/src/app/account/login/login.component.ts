@@ -31,6 +31,7 @@ export class LoginComponent  implements OnInit{
   onSubmit() {
     this.accService.login(this.loginForm.value).subscribe(()=>{
       console.log("user logged in");
+      localStorage.setItem('loggedIn', 'true');
       this.router.navigateByUrl('/shop');
     }, error =>{
       console.log(error);

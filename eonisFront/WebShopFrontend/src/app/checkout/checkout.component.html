@@ -1,1 +1,38 @@
-<p>checkout works!</p>
+<div class="order-details">
+  <h2 style="text-align: center;">Order Details</h2>
+  <form [formGroup]="userForm">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input id="name" formControlName="name" type="text" readonly>
+    </div>
+    <div class="form-group">
+      <label for="address">Address:</label>
+      <input id="address" formControlName="address" type="text" readonly>
+    </div>
+    <div class="form-group">
+      <label for="city">City:</label>
+      <input id="city" formControlName="city" type="text" readonly>
+    </div>
+    <div class="form-group">
+      <label for="postalCode">Postal Code:</label>
+      <input id="postalCode" formControlName="postalCode" type="text" readonly>
+    </div>
+    <div class="form-group">
+      <label for="contact">Contact Number:</label>
+      <input id="contact" formControlName="contact" type="text" readonly>
+    </div>
+  </form>
+
+  <h3 style="text-align: center;">Order Items</h3>
+  <div class="order-items">
+    <div *ngFor="let item of order?.orderItems" class="order-item">
+      <p><strong>{{ item.name }}</strong></p>
+      <p>Quantity: {{ item.quantity }}</p>
+      <p>Price: ${{ item.price }}</p>
+    </div>
+  </div>
+  <div class="total-amount">
+    <p><strong>Total Amount to Pay:</strong> ${{ getTotalAmount() }}</p>
+  </div>
+  <button class="pay-button" (click)="onPay()">Pay</button>
+</div>

@@ -1,0 +1,28 @@
+<div *ngIf="orders.length === 0; else ordersList">
+    <p>No orders to display</p>
+  </div>
+  
+  <ng-template #ordersList>
+    <div *ngFor="let order of orders" class="order">
+      <div class="order-header">
+        <h3>Order ID: {{ order.orderId }}</h3>
+        <p>Order Date: {{ order.orderDate | date:'medium' }}</p>
+        <p>Status: <span class="{{ order.processed ? 'processed' : 'pending' }}">{{ order.processed ? 'Processed' : 'Pending' }}</span></p>
+        <p>User ID: {{ order.userId }}</p>
+      </div>
+    
+      <div class="order-items">
+        <h4>Order Items</h4>
+        <ul>
+          <li *ngFor="let item of order.orderItems" class="order-item">
+            <div class="item-info">
+              <p class="item-name">{{ item.name }}</p>
+              <p>Quantity: {{ item.quantity }}</p>
+              <p>Price: ${{ item.price }}</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </ng-template>
+  

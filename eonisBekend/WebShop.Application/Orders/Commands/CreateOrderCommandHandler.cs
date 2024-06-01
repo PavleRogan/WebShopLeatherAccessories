@@ -28,17 +28,27 @@ public class CreateOrderCommandHandler(ILogger<CreateOrderCommandHandler> logger
             throw new NotFoundException(nameof(User), request.UserId.ToString());
         }
 
+        // Check if there is enough stock for all products
+        foreach (var product in request.OrderItems)
+        {
+            var prod = await productsRepository.GetById(product.ProductId);
+            if (prod is null || prod.StockQuantity < product.Quantity)
+            {
+                throw new NotFoundException(nameof(Product), product.ProductId.ToString());
+            }
+        }
+
         var order = new Order
-        { 
+        {
             OrderId = request.OrderID,
             OrderDate = DateTime.Now,
             UserId = request.UserId,
             Processed = false,
-            User = await usersRepository.GetById(request.UserId)
-            
+            User = user
         };
 
-        foreach (var product in request.OrderItems) {
+        foreach (var product in request.OrderItems)
+        {
             OrderItem orderItem = new OrderItem();
             orderItem.OrderItemId = Guid.NewGuid();
             orderItem.ProductId = product.ProductId;
@@ -48,28 +58,18 @@ public class CreateOrderCommandHandler(ILogger<CreateOrderCommandHandler> logger
             orderItem.Quantity = product.Quantity;
             orderItem.Price = product.Price;
             orderItem.Name = product.Name;
-            
 
             await orderItemRepository.Create(orderItem);
 
+            // Update product stock quantity
             var prod = await productsRepository.GetById(product.ProductId);
-            if(prod is not null)
-            {
-                if (prod.StockQuantity >= product.Quantity)
-                {
-
-                    prod.StockQuantity = prod.StockQuantity - product.Quantity;
-                }
-                else
-                {
-                    throw new NotFoundException(nameof(Product), prod.ToString());
-                }
-            }
+            prod.StockQuantity -= product.Quantity;
             await productsRepository.SaveChanges();
-
         }
+
+        //await ordersRepository.Create(order);
+
         return order.OrderId;
-           // await ordersRepository.Create(order);
 
     }
 }

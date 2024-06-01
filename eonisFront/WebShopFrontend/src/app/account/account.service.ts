@@ -5,6 +5,7 @@ import { IUpdateUserCommand, IUser } from '../shared/models/user';
 import { Router } from '@angular/router';
 import { stringify } from 'uuid';
 import { jwtDecode } from 'jwt-decode'; 
+import { IOrder } from '../shared/models/order';
 
 
 @Injectable({
@@ -111,11 +112,10 @@ export class AccountService {
     );
   }
   
-
-
   logout() {
     localStorage.removeItem('token');
     localStorage.removeItem('email');
+    localStorage.removeItem('loggedIn');
     this.currentUserSource.next(null);
     this.router.navigateByUrl('/');
   }
@@ -130,6 +130,17 @@ export class AccountService {
         return throwError(error); // Throw error in case of an error
       })
     );
+  }
+
+  getUserOrders(): Observable<IOrder[]> {
+    const token = localStorage.getItem('token');
+    if (!token) {
+      throw new Error('No token available.');
+    }
+
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+
+    return this.http.get<IOrder[]>(this.baseUrl + 'users/' +`${this.getCurrentUserValue()?.userId}/orders`, { headers });
   }
 
 }

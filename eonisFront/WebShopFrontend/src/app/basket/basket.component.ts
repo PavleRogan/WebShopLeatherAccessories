@@ -1,7 +1,10 @@
-import { Component, EventEmitter, Output, inject } from '@angular/core';
+
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { BasketService } from './basket.service';
-import { IOrderItem } from '../shared/models/order';
+import { IOrder, IOrderItem, Order } from '../shared/models/order';
 import { Router } from '@angular/router';
+import { AccountService } from '../account/account.service';
+import { CheckoutService } from '../checkout/checkout.service';
 
 @Component({
   selector: 'app-basket',
@@ -10,56 +13,57 @@ import { Router } from '@angular/router';
 })
 export class BasketComponent {
 
-  orderItems : IOrderItem[] = [];
-  basketService = inject(BasketService);
+  orderItems: IOrderItem[] = [];
   errorMessage: string = '';
+  @Output() localOrder = new EventEmitter<IOrder>();
 
-constructor(private router: Router){
-  this.orderItems= this.basketService.getItems();
-   // Filter out duplicate items based on productId
-   const uniqueItemsMap = new Map<string, IOrderItem>();
-   this.orderItems.forEach(item => {
-     if (!uniqueItemsMap.has(item.productId!)) {
-       uniqueItemsMap.set(item.productId!, item);
-     }
-   });
-
-   // Convert the map values back to an array
-   this.orderItems = Array.from(uniqueItemsMap.values());
-}
-
-
-getTotal() {
-  return this.orderItems.reduce((total, item) => total + (item.price! * item.quantity!), 0);
-}
-
-removeItem(productId: string) {
-  const index = this.orderItems.findIndex(item => item.productId === productId);
-  if (index > -1) {
-    this.orderItems.splice(index, 1);
+  constructor(
+    private router: Router,
+    private accService: AccountService,
+    private basketService: BasketService, 
+    private checkoutService: CheckoutService
+  ) {
+    this.basketService.orderItems$.subscribe(items => {
+      this.orderItems = items;
+    });
   }
-}
 
-updateQuantity(productId: string, quantity: number) {
-  const item = this.orderItems.find(item => item.productId === productId);
-  if (item) {
-    item.quantity = quantity;
+
+
+  getTotal() {
+    return this.orderItems.reduce((total, item) => total + (item.price! * item.quantity!), 0);
   }
-}
 
-validateCheckout() {
-  this.errorMessage = '';
-  for (const item of this.orderItems) {
-    if (item.quantity! < 1) {
-      this.errorMessage = 'Quantity cannot be less than 1.';
-      return;
+  deleteItem(productId: string) {
+    this.basketService.deleteItem(productId);
+  }
+
+  updateQuantity(productId: string, quantity: number) {
+    const item = this.orderItems.find(item => item.productId === productId);
+    if (item) {
+      item.quantity = quantity;
     }
   }
-  // Proceed with checkout logic
-  // dodaj kreiranje porudzbine ovde bar lokalno
-  if(this.errorMessage ==''){
-    console.log(this.orderItems);
-    this.router.navigate(['/checkout']);
+
+  validateCheckout() {
+    this.errorMessage = '';
+    for (const item of this.orderItems) {
+      if (item.quantity! < 1) {
+        this.errorMessage = 'Quantity cannot be less than 1.';
+        return;
+      }
+    }
+    
+    let localOrder = new Order();
+    localOrder.userId = this.accService.getCurrentUserValue()?.userId;
+    localOrder.orderItems = this.orderItems;
+    this.checkoutService.setOrder(localOrder);
+
+    if (this.errorMessage === '') {
+      console.log(this.orderItems);
+      this.router.navigate(['/checkout']);
+    }
   }
+
 }
-}
+
