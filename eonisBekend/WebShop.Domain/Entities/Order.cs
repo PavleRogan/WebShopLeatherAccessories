@@ -19,5 +19,10 @@ namespace WebShop.Domain.Entities
         public User User { get; set; }
 
         public List<OrderItem> OrderItems { get; set; } = new();
+
+        public string? ClientSecret { get; set; }
+
+        public string? PaymentIntentId { get; set; }
+
     }
 }

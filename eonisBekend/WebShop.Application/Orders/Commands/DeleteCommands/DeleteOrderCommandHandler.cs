@@ -13,7 +13,7 @@ using WebShop.Domain.Repositories;
 namespace WebShop.Application.Orders.Commands.DeleteCommands;
 
 public class DeleteOrderCommandHandler(ILogger<DeleteOrderCommandHandler> logger,
-    IMapper mapper, IOrdersRepository ordersRepository) : IRequestHandler<DeleteOrderCommand>
+    IMapper mapper, IOrdersRepository ordersRepository, IProductsRepository productsRepository) : IRequestHandler<DeleteOrderCommand>
 {
     public async Task Handle(DeleteOrderCommand request, CancellationToken cancellationToken)
     {
@@ -23,6 +23,18 @@ public class DeleteOrderCommandHandler(ILogger<DeleteOrderCommandHandler> logger
         {
             throw new NotFoundException(nameof(Order), request.Id.ToString());
         }
+
+        foreach (var orderItem in order.OrderItems)
+        {
+            var product = await productsRepository.GetById(orderItem.ProductId);
+            if (product != null)
+            {
+                product.StockQuantity += orderItem.Quantity;
+                await productsRepository.SaveChanges();
+            }
+        }
+
+
         await ordersRepository.Delete(order);
     }
 }

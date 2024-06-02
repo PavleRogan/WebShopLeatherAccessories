@@ -615,3 +615,5 @@ C:\Users\Rogan-LT\Desktop\sveEonis\EONIS24_IT_05_2020_WebShopLeatherAccessories\
 C:\Users\Rogan-LT\Desktop\sveEonis\EONIS24_IT_05_2020_WebShopLeatherAccessories\eonisBekend\WebShop.API\obj\Debug\net8.0\WebShop.API.pdb
 C:\Users\Rogan-LT\Desktop\sveEonis\EONIS24_IT_05_2020_WebShopLeatherAccessories\eonisBekend\WebShop.API\obj\Debug\net8.0\WebShop.API.genruntimeconfig.cache
 C:\Users\Rogan-LT\Desktop\sveEonis\EONIS24_IT_05_2020_WebShopLeatherAccessories\eonisBekend\WebShop.API\obj\Debug\net8.0\ref\WebShop.API.dll
+C:\Users\Rogan-LT\Desktop\sveEonis\EONIS24_IT_05_2020_WebShopLeatherAccessories\eonisBekend\WebShop.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Rogan-LT\Desktop\sveEonis\EONIS24_IT_05_2020_WebShopLeatherAccessories\eonisBekend\WebShop.API\bin\Debug\net8.0\Stripe.net.dll

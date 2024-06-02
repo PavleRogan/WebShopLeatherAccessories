@@ -6,6 +6,8 @@ export interface IOrder{
     processed?: boolean
     userId?: string
     orderItems: IOrderItem[]
+    clientSecret?: string;
+    paymentIntendId?: string;
   }
 
   export interface IOrderItem {

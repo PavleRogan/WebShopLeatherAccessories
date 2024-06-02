@@ -1,15 +1,16 @@
 import { Injectable } from '@angular/core';
 import { IOrder } from '../shared/models/order';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Observable, catchError } from 'rxjs';
+import { Observable, catchError, map } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CheckoutService {
   
+  
   baseUrl = "https://localhost:7010/api/";
-  private order: IOrder | null = null;
+  private order!: IOrder;
 
   constructor(private http: HttpClient) { }
 
@@ -33,6 +34,35 @@ export class CheckoutService {
     return this.http.post(`${this.baseUrl}orders`, order, { headers }).pipe(
       catchError((error: any) => {
         throw new Error('Error creating order: ' + error.message);
+      })
+    );
+  }
+
+  createPaymentIntent(){
+    const token = localStorage.getItem('token');
+    if (!token) {
+      throw new Error('No token available.');
+    }
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+
+    return this.http.post(this.baseUrl + 'payment/' + this.getOrder()?.orderId,{},{headers}).pipe(
+      map((order: any)=>{
+        this.order = order;
+        console.log(this.order);
+      })
+    );
+  }
+
+  deleteOrder() {
+    const token = localStorage.getItem('token');
+    if (!token) {
+      throw new Error('No token available.');
+    }
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+
+    return this.http.delete(`${this.baseUrl}orders/${this.order.orderId}`, { headers }).pipe(
+      catchError((error: any) => {
+        throw new Error('Error deleting order: ' + error.message);
       })
     );
   }

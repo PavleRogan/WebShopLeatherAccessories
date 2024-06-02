@@ -7,7 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebShop.API.Helpers;
+using WebShop.Application.Payment;
+using WebShop.Domain.Entities;
 using WebShop.Domain.Repositories;
+using WebShop.Infrastructure.Helpers;
 using WebShop.Infrastructure.Persistence;
 using WebShop.Infrastructure.Repositories;
 using WebShop.Infrastructure.Seeders;
@@ -33,7 +36,10 @@ public static class ServiceCollectionExtension
         services.AddScoped<IAdminsRepository, AdminRepository>();
 
         services.AddScoped<IAuthHelper, AuthHelper>();
-        
+        services.AddScoped<IPaymentHelper, PaymentHelper>();
+
+        services.Configure<StripeSettings>(configuration.GetSection("StripeSettings"));
+
     }
 
 } 

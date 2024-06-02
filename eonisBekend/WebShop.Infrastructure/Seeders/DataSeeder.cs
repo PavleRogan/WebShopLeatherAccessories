@@ -152,7 +152,8 @@ namespace WebShop.Infrastructure.Seeders
                                         ProductId = productId1,
                                         OrderId = orderId1,
                                         Quantity = 2, // Example quantity
-                                      
+                                       Price = 4200,
+                                        Name =  "wallet"
                                     }
                             }
                         }
@@ -178,7 +179,6 @@ namespace WebShop.Infrastructure.Seeders
                             OrderDate = DateTime.Now.AddDays(-7),
                             UserId = userId2,
                             Processed = false,
-
                             OrderItems = new List<OrderItem>
                             {
                             new OrderItem
@@ -187,7 +187,8 @@ namespace WebShop.Infrastructure.Seeders
                                         ProductId = productId2,
                                         OrderId = orderId2,
                                         Quantity = 1, // Example quantity
-                                       
+                                        Price = 50,
+                                        Name =  "wallet woman"
 
                                     }
                             }

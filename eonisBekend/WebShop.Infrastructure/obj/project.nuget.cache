@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wl/HHp5wIL+Ght8ACY+yDiJb3lqy1NSeIHMJUJbDhg7+R+OwH4liHOTBkyoRzAN+4n1VHQ0E3U7x4rgvrXv91Q==",
+  "dgSpecHash": "bP28K+68ezGP5qU5zJRG3InHkOVZ4LuymdrJ7RqPyJ5FXPU9FtynSS8UYWXqCK0JaNxZcq/sexlWF448s/7R4A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,8 @@
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Rogan-LT\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Rogan-LT\\.nuget\\packages\\stripe.net\\44.10.0\\stripe.net.44.10.0.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",

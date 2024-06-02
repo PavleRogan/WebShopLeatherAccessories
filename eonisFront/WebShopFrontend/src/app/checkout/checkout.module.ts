@@ -6,6 +6,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { PaymentComponent } from './payment/payment.component';
 import { CheckoutSuccessComponent } from './checkout-success/checkout-success.component';
 
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { CheckoutSuccessComponent } from './checkout-success/checkout-success.co
   imports: [
     CommonModule,
     CheckoutRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ]
 })
 export class CheckoutModule { }
