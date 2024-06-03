@@ -3,17 +3,17 @@ import { CommonModule } from '@angular/common';
 import { CheckoutComponent } from './checkout.component';
 import { CheckoutRoutingModule } from './checkout-routing.module';
 import { ReactiveFormsModule } from '@angular/forms';
-import { PaymentComponent } from './payment/payment.component';
 import { CheckoutSuccessComponent } from './checkout-success/checkout-success.component';
 
 import { FormsModule } from '@angular/forms';
+import { CheckoutFailComponent } from './checkout-fail/checkout-fail.component';
 
 
 @NgModule({
   declarations: [
     CheckoutComponent,
-    PaymentComponent,
-    CheckoutSuccessComponent
+    CheckoutSuccessComponent,
+    CheckoutFailComponent
   ],
   imports: [
     CommonModule,

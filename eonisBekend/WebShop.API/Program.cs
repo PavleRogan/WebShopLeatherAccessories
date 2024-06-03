@@ -4,15 +4,19 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using Serilog.Events;
+using Stripe;
 using System.Text;
 using WebShop.API.Middlewares;
 using WebShop.Application.Extensions;
+using WebShop.Domain.Entities;
 using WebShop.Infrastructure.Extensions;
 using WebShop.Infrastructure.Seeders;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+
 
 builder.Services.AddControllers();
 
@@ -67,6 +71,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
 });
+
+var stripeSettings = builder.Configuration.GetSection("StripeSettings").Get<StripeSettings>();
+StripeConfiguration.ApiKey = stripeSettings.SecretKey;
 
 builder.Services.AddAuthorization(auth =>
 {

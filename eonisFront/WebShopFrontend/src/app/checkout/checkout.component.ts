@@ -5,6 +5,7 @@ import { CheckoutService } from './checkout.service';
 import { IUser } from '../shared/models/user';
 import { AccountService } from '../account/account.service';
 import { Router } from '@angular/router';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-checkout',
@@ -17,7 +18,7 @@ export class CheckoutComponent implements OnInit {
   userForm!: FormGroup;
 
   constructor(private checkoutService: CheckoutService, private accService: AccountService, private fb: FormBuilder,
-    private router: Router
+    private router: Router, private snackBar: MatSnackBar
   ) {}
 
   ngOnInit(): void {
@@ -43,7 +44,24 @@ export class CheckoutComponent implements OnInit {
   }
 
   onPay(): void {
-    console.log(JSON.stringify(this.order));
-    this.router.navigate(['/checkout/payment']);
+    if (this.order) {
+
+      this.checkoutService.createOrder(this.order).subscribe({
+        next: () => {
+          localStorage.setItem('orderId',this.order!.orderId!);
+          this.checkoutService.requestSession(this.order!.orderId!);
+          
+        },
+        error: (error) => {
+          console.error('Error creating order:', error);
+          this.snackBar.open('This order is not currently available. Please try again.', 'Close', {
+            duration: 3000,
+          });
+  
+        }
+      });
+    } else {
+      console.error('No order available to create.');
+    }
   }
 }

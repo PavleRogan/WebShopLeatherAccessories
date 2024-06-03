@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Order } from 'src/app/shared/models/order';
 
@@ -7,8 +7,12 @@ import { Order } from 'src/app/shared/models/order';
   templateUrl: './checkout-success.component.html',
   styleUrls: ['./checkout-success.component.scss']
 })
-export class CheckoutSuccessComponent {
+export class CheckoutSuccessComponent implements OnInit {
   
   constructor(private router: Router) {    
+  }
+
+  ngOnInit(): void {
+    localStorage.removeItem('orderId');
   }
 }

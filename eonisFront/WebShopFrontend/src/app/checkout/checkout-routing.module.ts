@@ -2,14 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { CheckoutComponent } from './checkout.component';
-import { PaymentComponent } from './payment/payment.component';
 import { AuthGuard } from '../core/auth.guard';
 import { CheckoutSuccessComponent } from './checkout-success/checkout-success.component';
+import { CheckoutFailComponent } from './checkout-fail/checkout-fail.component';
 
 const routes: Routes = [
   {path:'',component: CheckoutComponent},
-  {path:'payment', component: PaymentComponent},
-  {path:'success', component: CheckoutSuccessComponent}
+  {path:'success', component: CheckoutSuccessComponent},
+  {path:'fail', component: CheckoutFailComponent}
 
 
 ]

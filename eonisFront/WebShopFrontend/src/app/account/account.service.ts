@@ -116,6 +116,7 @@ export class AccountService {
     localStorage.removeItem('token');
     localStorage.removeItem('email');
     localStorage.removeItem('loggedIn');
+    localStorage.removeItem('orderId');
     this.currentUserSource.next(null);
     this.router.navigateByUrl('/');
   }
@@ -132,7 +133,7 @@ export class AccountService {
     );
   }
 
-  getUserOrders(): Observable<IOrder[]> {
+  getUserOrders(userId: string): Observable<IOrder[]> {
     const token = localStorage.getItem('token');
     if (!token) {
       throw new Error('No token available.');
@@ -140,7 +141,7 @@ export class AccountService {
 
     const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
 
-    return this.http.get<IOrder[]>(this.baseUrl + 'users/' +`${this.getCurrentUserValue()?.userId}/orders`, { headers });
+    return this.http.get<IOrder[]>(this.baseUrl + 'users/' + userId +'/orders', { headers });
   }
 
 }
