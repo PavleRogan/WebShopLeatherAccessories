@@ -7,8 +7,6 @@
       <div class="order-header">
         <h3>Order ID: {{ order.orderId }}</h3>
         <p>Order Date: {{ order.orderDate | date:'medium' }}</p>
-        <p>Status: <span class="{{ order.processed ? 'processed' : 'pending' }}">{{ order.processed ? 'Processed' : 'Pending' }}</span></p>
-        <p>User ID: {{ order.userId }}</p>
       </div>
     
       <div class="order-items">

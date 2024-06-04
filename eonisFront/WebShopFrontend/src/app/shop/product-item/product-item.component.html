@@ -10,8 +10,8 @@
         </a>
         <span class="mb-2">{{product.price | currency}}</span>
         <div class="btn-group mt-auto">
-          <button type="button" (click)="addItemToBasket()" class="btn btn-outline-secondary fa fa-shopping-cart mr-2"></button>
-          <button type="button" class="btn btn-outline-secondary" routerLink="/shop/{{product.productId}}">View</button>
+          <button *ngIf="!isAdmin(currentUser)" type="button" (click)="addItemToBasket()" class="btn btn-outline-secondary fa fa-shopping-cart mr-2"></button>
+          <button *ngIf="isAdmin(currentUser)" type="button" class="btn btn-outline-secondary" routerLink="/shop/edit/{{product.productId}}">Edit</button>
         </div>
         </div>
   </div> 

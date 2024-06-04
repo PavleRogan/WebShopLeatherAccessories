@@ -2,6 +2,12 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { IProduct } from '../shared/models/product';
 import { ShopService } from './shop.service';
 import { ShopParams } from '../shared/models/shopParams';
+import { AccountService } from '../account/account.service';
+import { Observable } from 'rxjs';
+import { IUser } from '../shared/models/user';
+import { MatDialog } from '@angular/material/dialog';
+import { ProductAddEditComponent } from './product-add-edit/product-add-edit.component';
+
 
 @Component({
   selector: 'app-shop',
@@ -10,14 +16,26 @@ import { ShopParams } from '../shared/models/shopParams';
 })
 export class ShopComponent implements OnInit{
 
+
   @ViewChild('search',{static: false}) searchTerm! : ElementRef;
   products!: IProduct[] | undefined;
   shopParams = new ShopParams();
   totalCount! : number;
-  constructor(private shopService: ShopService){}
+  currentUser$!: Observable<IUser | null>;  
+  currentUser!: IUser | null;
+
+  constructor(private shopService: ShopService, private accService: AccountService, private dialog:MatDialog){}
 
   ngOnInit(): void {
-   this.getProducts();   
+    this.getProducts();   
+    this.currentUser$ = this.accService.currentUser$;
+   this.currentUser$.subscribe(user => {
+    this.currentUser = user;
+  });
+  }
+
+  isAdmin(user: any): boolean { 
+    return user && user.role === 'Admin'; 
   }
 
   getProducts(){
@@ -33,7 +51,9 @@ export class ShopComponent implements OnInit{
       );
   }
 
- 
+ addProductOpen(){
+  this.dialog.open(ProductAddEditComponent);
+ }
 
   onGenderSelected(gender:string){
     this.shopParams.gender = gender;

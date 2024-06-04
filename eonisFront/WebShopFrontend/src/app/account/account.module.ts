@@ -7,7 +7,9 @@ import { SharedModule } from '../shared/shared.module';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 
 import { FormsModule } from '@angular/forms';
-import { MyOrdersComponent } from './my-orders/my-orders.component'; // Import FormsModule
+import { MyOrdersComponent } from './my-orders/my-orders.component';
+import { UsersComponent } from './users/users.component';
+import { AdminsComponent } from './admins/admins.component'; // Import FormsModule
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { MyOrdersComponent } from './my-orders/my-orders.component'; // Import F
     LoginComponent,
     RegisterComponent,
     UserProfileComponent,
-    MyOrdersComponent
+    MyOrdersComponent,
+    UsersComponent,
+    AdminsComponent
   ],
   imports: [
     CommonModule,

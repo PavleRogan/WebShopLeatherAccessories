@@ -6,13 +6,19 @@ import { RegisterComponent } from './register/register.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { AuthGuard } from '../core/auth.guard';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
+import { UsersComponent } from './users/users.component';
+import { AdminsComponent } from './admins/admins.component';
 
 const routes:Routes =
 [
   {path:'login',component:LoginComponent},
   {path:'register',component:RegisterComponent},
   {path:'profile',canActivate:[AuthGuard], component: UserProfileComponent},
-  {path:'my-orders',canActivate:[AuthGuard], component: MyOrdersComponent}
+  {path:'my-orders',canActivate:[AuthGuard], component: MyOrdersComponent},
+  {path:'users',canActivate:[AuthGuard], component: UsersComponent},
+  {path:'admins',canActivate:[AuthGuard], component: AdminsComponent},
+
+
 ]
 
 

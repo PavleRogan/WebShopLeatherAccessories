@@ -50,6 +50,10 @@
               </div>
 
         </section>
+
+        <div class="d-flex justify-content-center mt-auto mb-3">
+            <button *ngIf="isAdmin(currentUser)" (click)="addProductOpen()" type="button" mat-raised-button color="primary">Add Product</button>
+        </div>
         <div class="d-flex justify-content-center">
             <app-pager 
             [pageSize]="shopParams.pageSize" 

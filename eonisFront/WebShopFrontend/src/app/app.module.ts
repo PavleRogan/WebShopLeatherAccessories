@@ -8,7 +8,10 @@ import { CoreModule } from './core/core.module';
 import { SHOPModule } from './shop/shop.module';
 import { HomeModule } from './home/home.module';
 import { RouterModule } from '@angular/router'; 
-import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatSnackBarModule } from '@angular/material/snack-bar'; 
+import { MatDialogModule } from '@angular/material/dialog';
+import {  MatFormFieldModule } from '@angular/material/form-field';
+import {MatRadioModule} from '@angular/material/radio';
 
 
 
@@ -25,7 +28,10 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     SHOPModule,
     HomeModule,
     RouterModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]

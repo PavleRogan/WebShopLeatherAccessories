@@ -4,6 +4,9 @@ import { ShopService } from '../shop.service';
 import { ActivatedRoute } from '@angular/router';
 import { BasketService } from 'src/app/basket/basket.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { IUser } from 'src/app/shared/models/user';
+import { Observable } from 'rxjs';
+import { AccountService } from 'src/app/account/account.service';
 
 @Component({
   selector: 'app-product-details',
@@ -13,11 +16,18 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 export class ProductDetailsComponent implements OnInit{
 
   product!: IProduct;
+  currentUser$!: Observable<IUser | null>;  
+  currentUser!: IUser | null;
 
-  constructor(private shopService: ShopService,private activatedRoute: ActivatedRoute,private snackBar: MatSnackBar, private basketService: BasketService){}
+  constructor(private shopService: ShopService,private activatedRoute: ActivatedRoute,private snackBar: MatSnackBar, 
+    private basketService: BasketService, private accService: AccountService){}
   
   ngOnInit(): void {
    this.loadProduct();
+   this.currentUser$ = this.accService.currentUser$;
+   this.currentUser$.subscribe(user => {
+    this.currentUser = user;
+  });
   }
 
   addItemToBasket(){
@@ -42,6 +52,9 @@ export class ProductDetailsComponent implements OnInit{
       console.log('Product ID is null');
     }
     ;
+  }
+  isAdmin(user: any): boolean { 
+    return user && user.role === 'Admin'; 
   }
 
 }

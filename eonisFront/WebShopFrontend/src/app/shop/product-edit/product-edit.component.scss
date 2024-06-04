@@ -1,0 +1,32 @@
+.product-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .product-image {
+    margin-right: 20px;
+  }
+  
+  .product-image img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  
+  .product-info {
+    max-width: 400px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .success-snackbar {
+    background-color: #4caf50; /* Green */
+  }
+  
+  .error-snackbar {
+    background-color: #f44336; /* Red */
+  }
+  

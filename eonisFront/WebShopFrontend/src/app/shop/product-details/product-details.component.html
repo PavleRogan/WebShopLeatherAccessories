@@ -9,7 +9,7 @@
 
             <div class="d-flex justify-content-start align-items-center">
                 
-                <button 
+                <button *ngIf="!isAdmin(currentUser)"
                     class="btn btn-outline-primary ms-4"
                     style="width: 100px; height: 40px;"
                     (click)="addItemToBasket()"

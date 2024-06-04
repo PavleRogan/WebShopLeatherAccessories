@@ -1,0 +1,61 @@
+<div style="text-align: center;" mat-dialog-title>
+    <h1>Product Form:</h1>
+</div>
+<form style="width: 500px;" class="mt-5" [formGroup]="prodForm" (ngSubmit)="onFormSubmit()">
+
+    <div mat-dialog-content>
+        <div class="row">
+            <mat-form-field>
+                <mat-label>Name</mat-label>
+                <input matInput formControlName="name">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field>
+                <mat-label>Description</mat-label>
+                <input matInput formControlName="description">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-radio-group aria-label="Select an option" formControlName="gender">
+                <mat-label><b>Gender:</b></mat-label>
+                <mat-radio-button value="Male">M</mat-radio-button>
+            <mat-radio-button value="Female">F</mat-radio-button>
+          </mat-radio-group>
+        </div>
+
+        <div class="row">
+            <mat-form-field>
+            <mat-label>Category</mat-label>
+            <mat-select formControlName="category">
+                <mat-option *ngFor="let cat of categories" [value]="cat">{{cat}}</mat-option>
+                
+            </mat-select>
+            </mat-form-field>
+            
+    </div>
+    <div class="row">
+        <mat-form-field>
+            <mat-label>Price</mat-label>
+            <input matInput type="number" formControlName="price">
+        </mat-form-field>
+    </div>
+    <div class="row">
+        <mat-form-field>
+            <mat-label>Stock Quantity</mat-label>
+            <input matInput type="number" formControlName="stockQuantity">
+        </mat-form-field>
+    </div>
+    <div class="row">
+        <mat-form-field>
+            <mat-label>Image Url</mat-label>
+            <input matInput formControlName="imageUrl">
+        </mat-form-field>
+    </div>
+
+</div>
+<div class="mat-dialog-actions">
+    <button mat-raised-button color="primary" type="submit">{{data ? "Update":"Save"}}</button>
+    <button mat-raised-button (click)="cancel()" type="button">Cancel</button>
+</div>
+</form>

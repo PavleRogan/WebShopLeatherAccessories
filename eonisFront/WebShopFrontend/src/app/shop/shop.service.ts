@@ -1,4 +1,4 @@
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { IPagination } from '../shared/models/pagination';
 import {map} from 'rxjs/operators'
@@ -9,6 +9,7 @@ import { IProduct } from '../shared/models/product';
   providedIn: 'root'
 })
 export class ShopService {
+  
   baseUrl = "https://localhost:7010/api/"
 
   constructor(private http: HttpClient) { }
@@ -45,5 +46,26 @@ export class ShopService {
   getProduct(id: string){
     return this.http.get<IProduct>(this.baseUrl + 'products/' + id);
   
+  }
+
+  createProduct(data: any){
+    let token = localStorage.getItem('token');
+    let headers = new HttpHeaders();
+    headers = headers.set('Authorization', `Bearer ${token}`);
+    return this.http.post(this.baseUrl + 'products',data,{headers})
+  }
+
+  deleteProduct(id:string){
+    let token = localStorage.getItem('token');
+    let headers = new HttpHeaders();
+    headers = headers.set('Authorization', `Bearer ${token}`);
+    return this.http.delete(this.baseUrl + 'products/' + id,{headers});
+  }
+
+  updateProduct(id:string, data:any){
+    let token = localStorage.getItem('token');
+    let headers = new HttpHeaders();
+    headers = headers.set('Authorization', `Bearer ${token}`);
+    return this.http.patch(this.baseUrl + 'products/' + id,data, {headers})
   }
 }

@@ -1,0 +1,18 @@
+<div class="product-details-container" *ngIf="product">
+    <div class="product-image">
+      <img [src]="product.imageUrl" alt="{{ product.name }}">
+    </div>
+    <div class="product-info">
+      <h2>{{ product.name }}</h2>
+      <p>{{ product.description }}</p>
+      <p>Category: {{ product.category }}</p>
+      <p>Gender: {{ product.gender }}</p>
+      <p>Price: {{ product.price | currency }}</p>
+      <p>Stock Quantity: {{ product.stockQuantity }}</p>
+      <div class="buttons">
+        <button mat-button color="primary" (click)="openUpdateProduct(this.product)">Update</button>
+        <button mat-button color="warn" (click)="deleteProduct()">Delete</button>
+      </div>
+    </div>
+  </div>
+  

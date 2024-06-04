@@ -8,4 +8,7 @@ export interface IProduct {
     stockQuantity: number
     imageUrl: string
   }
+
+
+  
   
