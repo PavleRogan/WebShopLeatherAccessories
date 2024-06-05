@@ -11,4 +11,9 @@ public class CreateAdminCommand :IRequest<Guid>
 {
     public string Username { get; set; } = default!;
     public string Password { get; set; } = default!;
+
+    public string Name { get; set; } = default!;
+    public string Surname { get; set; } = default!;
+
+    public string Contact {  get; set; } = default!;
 }

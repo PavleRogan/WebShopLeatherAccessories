@@ -83,7 +83,10 @@ namespace WebShop.Infrastructure.Seeders
                     AdminId = Guid.NewGuid(),
                     Username = "admin",
                     Password = hashedAdminPasswordAndSalt.Item1,
-                    Salt = hashedAdminPasswordAndSalt.Item2
+                    Salt = hashedAdminPasswordAndSalt.Item2,
+                    Name = "Admin",
+                    Surname = "Adminic",
+                    Contact = "+38169121212"
                 }
             };
         }

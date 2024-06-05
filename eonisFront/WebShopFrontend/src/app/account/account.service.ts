@@ -107,7 +107,7 @@ export class AccountService {
       switchMap(() => this.loadCurrentUser(token, currentUser.email)), // Make a subsequent call to loadCurrentUser
       catchError((error) => {
         console.error('Error occurred while updating user:', error);
-        return of(null); // Return null in case of an error
+        return of(null); 
       })
     );
   }
@@ -144,4 +144,64 @@ export class AccountService {
     return this.http.get<IOrder[]>(this.baseUrl + 'users/' + userId +'/orders', { headers });
   }
 
+  getAllUsers():Observable<any>{
+    const token = localStorage.getItem('token');
+    if (!token) {
+      throw new Error('No token available.');
+    }
+
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+    return this.http.get<IUser[]>(this.baseUrl + 'users',{headers});
+  }
+
+  deleteUser(id:string): Observable<any>{
+    const token = localStorage.getItem('token');
+    if (!token) {
+      throw new Error('No token available.');
+    }
+
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+
+    return this.http.delete(this.baseUrl + 'users/' + id,{headers});
+  }
+
+  getAllAdmins():Observable<any>{
+    const token = localStorage.getItem('token');
+    if (!token) {
+      throw new Error('No token available.');
+    }
+
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+    
+    return this.http.get(this.baseUrl + 'admins',{headers});
+  }
+
+  deleteAdmin(id:string): Observable<any>{
+    const token = localStorage.getItem('token');
+    if (!token) {
+      throw new Error('No token available.');
+    }
+
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+
+    return this.http.delete(this.baseUrl + 'admins/' + id,{headers});
+  }
+
+  updateAdmin(id:string, data:any){
+    const token = localStorage.getItem('token');
+    if (!token) {
+      throw new Error('No token available.');
+    }
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+    return this.http.patch(this.baseUrl + 'admins/' + id,{data},{headers});
+  }
+
+  createAdmin(){
+    const token = localStorage.getItem('token');
+    if (!token) {
+      throw new Error('No token available.');
+    }
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+
+  }
 }

@@ -26,13 +26,6 @@
       <input type="text" id="postalCode" [(ngModel)]="currentUser!.postalCode">
     </div>
     <div class="user-orders">
-      <h3 class="mt-3">Orders:</h3>
-      <ul>
-        <li *ngFor="let order of currentUser!.orders">
-          <p><strong>Order ID:</strong> {{ order.orderId }}</p>
-          <p><strong>Order Date:</strong> {{ order.orderDate | date }}</p>
-        </li>
-      </ul>
       <button class="edit-button" (click)="onEdit()">Save Changes</button>
     </div>
   </div>

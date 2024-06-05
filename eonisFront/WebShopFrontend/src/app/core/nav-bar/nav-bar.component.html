@@ -8,10 +8,10 @@
         <a class="p-2" [routerLink]="[ '/shop' ]" routerLinkActive="active">Shop</a>
         <ng-container *ngIf="(currentUser$ | async) as currentUser">
             <ng-container *ngIf="isAdmin(currentUser)">
-                <a  [routerLink]="[ '/account/users' ]" class="p-2">Users</a>
+                <a  [routerLink]="[ '/account/users' ]"  routerLinkActive="active" class="p-2">Users</a>
             </ng-container>
             <ng-container *ngIf="isAdmin(currentUser)">
-                <a [routerLink]="[ '/account/admins' ]" class="p-2">Admins</a>
+                <a [routerLink]="[ '/account/admins' ]"  routerLinkActive="active" class="p-2">Admins</a>
             </ng-container>
         </ng-container>
     </nav>

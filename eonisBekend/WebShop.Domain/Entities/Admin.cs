@@ -12,7 +12,10 @@ namespace WebShop.Domain.Entities
         public string Username { get; set; } = default!;
         public string Password { get; set; } = default!;
         public string Salt { get; set; }
+        public string Name { get; set; } = default!;
+        public string Surname { get; set; } = default!;
 
-        //dodaj posle enkripciju
+        public string Contact { get; set; } = default!;
+
     }
 }
