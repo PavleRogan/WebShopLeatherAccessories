@@ -35,4 +35,4 @@ public class CreateAdminCommandHandler(ILogger<CreateAdminCommandHandler> logger
     }
        
     }
-}
+

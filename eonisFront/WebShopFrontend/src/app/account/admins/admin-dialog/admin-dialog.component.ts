@@ -4,6 +4,7 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
+import { AccountService } from '../../account.service';
 
 @Component({
   selector: 'app-admin-dialog',
@@ -13,10 +14,9 @@ import { Router } from '@angular/router';
 export class AdminDialogComponent implements OnInit {
 
   adminForm: FormGroup;
-  isUpdate: boolean;
 
-  constructor(private fb : FormBuilder, private snackBar: MatSnackBar
-    ,private dialogRef: DialogRef<AdminDialogComponent>, @Inject(MAT_DIALOG_DATA) public data: any,
+  constructor(private fb : FormBuilder, private snackBar: MatSnackBar, private accService:AccountService,
+    private dialogRef: DialogRef<AdminDialogComponent>, @Inject(MAT_DIALOG_DATA) public data: any,
     private router: Router){
 
       this.adminForm= this.fb.group({
@@ -26,19 +26,58 @@ export class AdminDialogComponent implements OnInit {
         username: new FormControl('', Validators.required),
         password: new FormControl('', Validators.required),
       });
-      this.isUpdate = data.isUpdate;
-      console.log(data.isUpdate);
   }
 
   ngOnInit(): void {
-    
+    this.adminForm.patchValue(this.data);
   }
 
   cancel() {
-    throw new Error('Method not implemented.');
+    this.dialogRef.close();
+    this.snackBar.open('No changes!', 'ok', { duration: 1500 });
     }
     
     onFormSubmit() {
-    throw new Error('Method not implemented.');
+      if(this.adminForm.valid){
+        if(this.data){
+
+          const adminId = this.data.adminId;
+          if(adminId){
+            
+            this.accService.updateAdmin(adminId,this.adminForm.value).subscribe({
+              next:(val:any)=>{
+                this.dialogRef.close();
+                this.router.navigateByUrl('/account/admins');
+                this.snackBar.open('Admin updated succcessfuly!', 'Close', {
+                  duration: 3000,
+                });
+              }, error:(err)=>{
+                console.error(err)
+                
+              }
+            });
+          }
+         
+        }else{
+          this.accService.createAdmin(this.adminForm.value).subscribe({
+            next:(val:any)=>{
+              this.dialogRef.close();
+              this.snackBar.open('Admin added succcessfuly!', 'Close', {
+                duration: 1500,
+              });
+            }, error:(err)=>{
+              console.error(err)
+              this.snackBar.open('Admin already exists!', 'Close', {
+                duration: 1500,
+              });
+            }
+          });
+        }
+        
+      }else{
+        this.snackBar.open('Data is invalid!', 'Close', {
+          duration: 3000,
+        });
+      }
     }
 }

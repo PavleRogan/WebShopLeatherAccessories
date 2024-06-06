@@ -3,7 +3,7 @@
       <mat-label>Filter</mat-label>
       <input matInput (keyup)="applyFilter($event)" placeholder="Unesi pojam..." #input>
     </mat-form-field>
-    <button type="button" mat-raised-button color="primary" (click)="openAdminDialog(false)" class="add-product-btn btn btn-primary">Add Product</button>
+    <button type="button" mat-raised-button color="primary" (click)="openAdminDialog()" class="add-product-btn btn btn-primary">Add Admin</button>
   </div>
 <div class="mat-elevation-z8">
     <table mat-table [dataSource]="dataSource" matSort>
@@ -38,7 +38,7 @@
                 <button mat-icon-button class="custom-delete-btn mr-2" (click)="onDeleteAdmin(element.adminId,element.username)">
                     <mat-icon  color="warn">delete</mat-icon>
                 </button>
-                <button mat-icon-button class="custom-delete-btn" (click)="openAdminDialog(true)">
+                <button mat-icon-button class="custom-delete-btn" (click)="onEditAdmin(element)">
                     <mat-icon  color="primary">edit</mat-icon>
                 </button></div> 
             

@@ -35,6 +35,7 @@ export class AdminsComponent {
           this.dataSource = new MatTableDataSource(res);
           this.dataSource.sort = this.sort;
           this.dataSource.paginator = this.paginator;
+          console.log('Admins:' + JSON.stringify(res));
       }, error: (err)=>{ 
           console.log(err);
       }
@@ -67,19 +68,34 @@ export class AdminsComponent {
             console.log(err);
           }
         });
-      }else{
-        console.log("Cant delete current!")
-        this.snackBar.open('Cant delete yourself!', 'Close', {
-          duration: 3000,
-        });
       }
+    }else{
+        
+      this.snackBar.open('Cant delete yourself!', 'Close', {
+        duration: 3000,
+      });
     }
   }
 
-  openAdminDialog(isUpdate:boolean){
-    const dialogConfig = new MatDialogConfig();
-    dialogConfig.data = { isUpdate }; // Pass the flag to the dialog
-    this.dialog.open(AdminDialogComponent, dialogConfig);
-    
+  openAdminDialog(){
+   
+    const dialogRef = this.dialog.open(AdminDialogComponent);
+    dialogRef.afterClosed().subscribe(result => {
+      
+        this.getAllAdmins();
+      
+    });
+  }
+
+  onEditAdmin(data: any){
+    const dialogRef = this.dialog.open(AdminDialogComponent, {
+      data
+    });
+    dialogRef.afterClosed().subscribe(result => {
+      
+        this.getAllAdmins();
+      
+    });
+
   }
 }

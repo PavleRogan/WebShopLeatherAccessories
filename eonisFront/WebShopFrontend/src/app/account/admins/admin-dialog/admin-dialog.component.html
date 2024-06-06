@@ -1,10 +1,10 @@
 <div style="text-align: center;" mat-dialog-title class="mt-5">
-    <h1>{{isUpdate? "Update Admin":"Add Admin"}}</h1>
+    <h1>{{data? "Update Admin":"Add Admin"}}</h1>
 </div>
 <form style="width: 500px;" class="mt-2" [formGroup]="adminForm" (ngSubmit)="onFormSubmit()">
 
     <div mat-dialog-content>
-        <div class="row" *ngIf="!isUpdate">
+        <div class="row" *ngIf="!data">
             <mat-form-field>
                 <mat-label>Username</mat-label>
                 <input matInput formControlName="username">
@@ -22,7 +22,7 @@
                 <input matInput formControlName="surname">
             </mat-form-field>
         </div>
-        <div class="row" *ngIf="!isUpdate">
+        <div class="row" *ngIf="!data">
             <mat-form-field>
                 <mat-label>Password</mat-label>
                 <input matInput formControlName="password">

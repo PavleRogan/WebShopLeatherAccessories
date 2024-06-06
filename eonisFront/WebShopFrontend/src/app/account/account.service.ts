@@ -193,15 +193,15 @@ export class AccountService {
       throw new Error('No token available.');
     }
     const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
-    return this.http.patch(this.baseUrl + 'admins/' + id,{data},{headers});
+    return this.http.patch(this.baseUrl + 'admins/' + id,data,{headers});
   }
 
-  createAdmin(){
+  createAdmin(data:any){
     const token = localStorage.getItem('token');
     if (!token) {
       throw new Error('No token available.');
     }
     const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
-
+    return this.http.post(this.baseUrl + 'admins',data,{headers});
   }
 }

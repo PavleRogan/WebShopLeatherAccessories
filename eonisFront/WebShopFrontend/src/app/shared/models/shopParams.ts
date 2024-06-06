@@ -5,5 +5,5 @@ export class ShopParams{
     sortBy?: string ='Name';
     sortDirection?: string = 'Ascending';
     pageNumber =1;
-    pageSize = 2;
+    pageSize = 3;
 }
