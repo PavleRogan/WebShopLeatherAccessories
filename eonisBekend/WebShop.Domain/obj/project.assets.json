@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\WebShop.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Rogan-LT\\Desktop\\eonisFinal\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\WebShop.Domain.csproj",
       "projectName": "WebShop.Domain",
-      "projectPath": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\WebShop.Domain.csproj",
+      "projectPath": "C:\\Users\\Rogan-LT\\Desktop\\eonisFinal\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\WebShop.Domain.csproj",
       "packagesPath": "C:\\Users\\Rogan-LT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Rogan-LT\\Desktop\\eonisFinal\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rogan-LT\\AppData\\Roaming\\NuGet\\NuGet.Config",

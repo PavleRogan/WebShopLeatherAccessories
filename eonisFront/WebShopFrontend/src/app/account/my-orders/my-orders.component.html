@@ -7,6 +7,9 @@
       <div class="order-header">
         <h3>Order ID: {{ order.orderId }}</h3>
         <p>Order Date: {{ order.orderDate | date:'medium' }}</p>
+        <p [ngClass]="{'processed-green': order.processed, 'processed-red': !order.processed}">
+          Processed: {{ order.processed ? 'Yes' : 'No' }}
+      </p>
       </div>
     
       <div class="order-items">

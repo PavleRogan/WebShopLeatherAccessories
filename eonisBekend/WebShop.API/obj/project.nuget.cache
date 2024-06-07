@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+dW2qKiGtxKjiXOVCYA/H6uzvs12r7/fzTelX0V5cR7QOezsuoNGj6rJvjQl7NpaEWzmPPGbK4MGWXIKqXPe4w==",
+  "dgSpecHash": "Z7mlhlRIUzAeZ7EtEi1A1tyA+xQSJaRbPOtzwr9y6KbljSLbTqu3mUqwUUAPlouK7ANdXBH2/mlvpyWmCrJjIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rogan-LT\\Desktop\\sveEonis\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\WebShop.API.csproj",
+  "projectFilePath": "C:\\Users\\Rogan-LT\\Desktop\\eonisFinal\\EONIS24_IT_05_2020_WebShopLeatherAccessories\\eonisBekend\\WebShop.API\\WebShop.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Rogan-LT\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

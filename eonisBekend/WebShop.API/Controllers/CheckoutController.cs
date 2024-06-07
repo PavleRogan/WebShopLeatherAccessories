@@ -3,6 +3,7 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Stripe;
 using Stripe.Checkout;
+using WebShop.Application.Orders.Commands.UpdateCommand;
 using WebShop.Application.Orders.Queries;
 using WebShop.Application.Payment;
 using WebShop.Domain.Entities;
@@ -64,6 +65,13 @@ namespace WebShop.API.Controllers
                 Mode = "payment",
                 SuccessUrl = "http://localhost:4200/checkout/success",
                 CancelUrl = "http://localhost:4200/checkout/fail",
+                PaymentIntentData = new SessionPaymentIntentDataOptions
+                {
+                    Metadata = new Dictionary<string, string>
+                    {
+                        { "OrderId", orderId.ToString() }
+                    }
+                }
             };
 
             var service = new SessionService();
@@ -91,6 +99,18 @@ namespace WebShop.API.Controllers
                 {
                     var paymentIntent = stripeEvent.Data.Object as PaymentIntent;
                     Console.WriteLine("A successful payment for {0} was made.", paymentIntent.Amount);
+
+                    var orderId = paymentIntent.Metadata["OrderId"]; // Assuming OrderId is stored in metadata
+                    if (Guid.TryParse(orderId, out Guid parsedOrderId))
+                    {
+                        var updateOrderCommand = new UpdateOrderCommand
+                        {
+                            OrderId = parsedOrderId,
+                            Processed = true
+                        };
+
+                        await mediator.Send(updateOrderCommand);
+                    }
 
 
                 }

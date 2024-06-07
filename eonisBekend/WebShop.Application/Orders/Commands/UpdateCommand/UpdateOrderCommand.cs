@@ -11,7 +11,6 @@ namespace WebShop.Application.Orders.Commands.UpdateCommand;
 public class UpdateOrderCommand : IRequest
 {
     public Guid OrderId { get; set; }
-    public DateTime OrderDate { get; set; }
     public bool Processed { get; set; }
     
 }
